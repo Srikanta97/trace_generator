@@ -36,12 +36,24 @@ console.log('OpenTelemetry SDK started');
 
 // 5. Generate Mock Traces
 const tracer = trace.getTracer('mock-tracer');
+
+// Create a parent span
+const parentSpan = tracer.startSpan('parent-operation');
+
 setInterval(() => {
-  const span = tracer.startSpan('mock-operation');
+  // Create a child span from the parent span
+  const span = tracer.startSpan('mock-operation', {
+    parent: parentSpan
+  });
   setTimeout(() => {
     span.end(); // End the span after a delay
   }, Math.random() * 1000);
 }, 2000); // Create a new span every 2 seconds
+
+// End the parent span after some time (optional)
+setTimeout(() => {
+  parentSpan.end();
+}, 10000); // End the parent span after 10 seconds
 
 // 6. Generate Mock Metrics
 const meter = new MeterProvider({ resource }).getMeter('mock-meter');
