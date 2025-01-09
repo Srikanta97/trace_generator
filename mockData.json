@@ -1,0 +1,5447 @@
+[
+  {
+    "resource": {
+      "attributes": {
+        "service.name": "mock-otel-app",
+        "telemetry.sdk.language": "nodejs",
+        "telemetry.sdk.name": "opentelemetry",
+        "telemetry.sdk.version": "1.30.0",
+        "service.version": "1.0.0",
+        "process.pid": 20288,
+        "process.executable.name": "node",
+        "process.executable.path": "/usr/local/bin/node",
+        "process.command_args": [
+          "/usr/local/bin/node",
+          "/Users/sri/trace_generator/app/traceExporter.js"
+        ],
+        "process.runtime.version": "20.11.1",
+        "process.runtime.name": "nodejs",
+        "process.runtime.description": "Node.js",
+        "process.command": "/Users/sri/trace_generator/app/traceExporter.js",
+        "process.owner": "sri",
+        "host.name": "Sri-MacBook.local",
+        "host.arch": "arm64",
+        "host.id": "A62B053A-8D3A-57DE-A155-F4B3273F96D7"
+      }
+    },
+    "instrumentationScope": {
+      "name": "mock-tracer",
+      "version": "undefined",
+      "schemaUrl": "undefined"
+    },
+    "traceId": "b85be1ec81338f069c26974ac03dc3ba",
+    "parentid": "f41d227bba40b51c",
+    "traceState": "undefined",
+    "name": "level-1-span-1",
+    "id": "991a818ab91031c0",
+    "kind": 0,
+    "timestamp": 1736397352181000,
+    "duration": 136625.25,
+    "attributes": {},
+    "status": {
+      "code": 0
+    },
+    "events": [],
+    "links": []
+  },
+  {
+    "resource": {
+      "attributes": {
+        "service.name": "mock-otel-app",
+        "telemetry.sdk.language": "nodejs",
+        "telemetry.sdk.name": "opentelemetry",
+        "telemetry.sdk.version": "1.30.0",
+        "service.version": "1.0.0",
+        "process.pid": 20288,
+        "process.executable.name": "node",
+        "process.executable.path": "/usr/local/bin/node",
+        "process.command_args": [
+          "/usr/local/bin/node",
+          "/Users/sri/trace_generator/app/traceExporter.js"
+        ],
+        "process.runtime.version": "20.11.1",
+        "process.runtime.name": "nodejs",
+        "process.runtime.description": "Node.js",
+        "process.command": "/Users/sri/trace_generator/app/traceExporter.js",
+        "process.owner": "sri",
+        "host.name": "Sri-MacBook.local",
+        "host.arch": "arm64",
+        "host.id": "A62B053A-8D3A-57DE-A155-F4B3273F96D7"
+      }
+    },
+    "instrumentationScope": {
+      "name": "mock-tracer",
+      "version": "undefined",
+      "schemaUrl": "undefined"
+    },
+    "traceId": "b85be1ec81338f069c26974ac03dc3ba",
+    "parentid": "991a818ab91031c0",
+    "traceState": "undefined",
+    "name": "level-2-span-3",
+    "id": "e7874ea00e062b79",
+    "kind": 0,
+    "timestamp": 1736397352317000,
+    "duration": 311142.792,
+    "attributes": {},
+    "status": {
+      "code": 0
+    },
+    "events": [],
+    "links": []
+  },
+  {
+    "resource": {
+      "attributes": {
+        "service.name": "mock-otel-app",
+        "telemetry.sdk.language": "nodejs",
+        "telemetry.sdk.name": "opentelemetry",
+        "telemetry.sdk.version": "1.30.0",
+        "service.version": "1.0.0",
+        "process.pid": 20288,
+        "process.executable.name": "node",
+        "process.executable.path": "/usr/local/bin/node",
+        "process.command_args": [
+          "/usr/local/bin/node",
+          "/Users/sri/trace_generator/app/traceExporter.js"
+        ],
+        "process.runtime.version": "20.11.1",
+        "process.runtime.name": "nodejs",
+        "process.runtime.description": "Node.js",
+        "process.command": "/Users/sri/trace_generator/app/traceExporter.js",
+        "process.owner": "sri",
+        "host.name": "Sri-MacBook.local",
+        "host.arch": "arm64",
+        "host.id": "A62B053A-8D3A-57DE-A155-F4B3273F96D7"
+      }
+    },
+    "instrumentationScope": {
+      "name": "mock-tracer",
+      "version": "undefined",
+      "schemaUrl": "undefined"
+    },
+    "traceId": "b85be1ec81338f069c26974ac03dc3ba",
+    "parentid": "991a818ab91031c0",
+    "traceState": "undefined",
+    "name": "level-2-span-2",
+    "id": "56d3d740e29a026c",
+    "kind": 0,
+    "timestamp": 1736397352317000,
+    "duration": 333752.167,
+    "attributes": {},
+    "status": {
+      "code": 0
+    },
+    "events": [],
+    "links": []
+  },
+  {
+    "resource": {
+      "attributes": {
+        "service.name": "mock-otel-app",
+        "telemetry.sdk.language": "nodejs",
+        "telemetry.sdk.name": "opentelemetry",
+        "telemetry.sdk.version": "1.30.0",
+        "service.version": "1.0.0",
+        "process.pid": 20288,
+        "process.executable.name": "node",
+        "process.executable.path": "/usr/local/bin/node",
+        "process.command_args": [
+          "/usr/local/bin/node",
+          "/Users/sri/trace_generator/app/traceExporter.js"
+        ],
+        "process.runtime.version": "20.11.1",
+        "process.runtime.name": "nodejs",
+        "process.runtime.description": "Node.js",
+        "process.command": "/Users/sri/trace_generator/app/traceExporter.js",
+        "process.owner": "sri",
+        "host.name": "Sri-MacBook.local",
+        "host.arch": "arm64",
+        "host.id": "A62B053A-8D3A-57DE-A155-F4B3273F96D7"
+      }
+    },
+    "instrumentationScope": {
+      "name": "mock-tracer",
+      "version": "undefined",
+      "schemaUrl": "undefined"
+    },
+    "traceId": "b85be1ec81338f069c26974ac03dc3ba",
+    "parentid": "f41d227bba40b51c",
+    "traceState": "undefined",
+    "name": "level-1-span-2",
+    "id": "768809da4457d420",
+    "kind": 0,
+    "timestamp": 1736397352182000,
+    "duration": 631306.791,
+    "attributes": {},
+    "status": {
+      "code": 0
+    },
+    "events": [],
+    "links": []
+  },
+  {
+    "resource": {
+      "attributes": {
+        "service.name": "mock-otel-app",
+        "telemetry.sdk.language": "nodejs",
+        "telemetry.sdk.name": "opentelemetry",
+        "telemetry.sdk.version": "1.30.0",
+        "service.version": "1.0.0",
+        "process.pid": 20288,
+        "process.executable.name": "node",
+        "process.executable.path": "/usr/local/bin/node",
+        "process.command_args": [
+          "/usr/local/bin/node",
+          "/Users/sri/trace_generator/app/traceExporter.js"
+        ],
+        "process.runtime.version": "20.11.1",
+        "process.runtime.name": "nodejs",
+        "process.runtime.description": "Node.js",
+        "process.command": "/Users/sri/trace_generator/app/traceExporter.js",
+        "process.owner": "sri",
+        "host.name": "Sri-MacBook.local",
+        "host.arch": "arm64",
+        "host.id": "A62B053A-8D3A-57DE-A155-F4B3273F96D7"
+      }
+    },
+    "instrumentationScope": {
+      "name": "mock-tracer",
+      "version": "undefined",
+      "schemaUrl": "undefined"
+    },
+    "traceId": "b85be1ec81338f069c26974ac03dc3ba",
+    "parentid": "991a818ab91031c0",
+    "traceState": "undefined",
+    "name": "level-2-span-1",
+    "id": "6da73fbb74ef5bda",
+    "kind": 0,
+    "timestamp": 1736397352317000,
+    "duration": 508867.5,
+    "attributes": {},
+    "status": {
+      "code": 0
+    },
+    "events": [],
+    "links": []
+  },
+  {
+    "resource": {
+      "attributes": {
+        "service.name": "mock-otel-app",
+        "telemetry.sdk.language": "nodejs",
+        "telemetry.sdk.name": "opentelemetry",
+        "telemetry.sdk.version": "1.30.0",
+        "service.version": "1.0.0",
+        "process.pid": 20288,
+        "process.executable.name": "node",
+        "process.executable.path": "/usr/local/bin/node",
+        "process.command_args": [
+          "/usr/local/bin/node",
+          "/Users/sri/trace_generator/app/traceExporter.js"
+        ],
+        "process.runtime.version": "20.11.1",
+        "process.runtime.name": "nodejs",
+        "process.runtime.description": "Node.js",
+        "process.command": "/Users/sri/trace_generator/app/traceExporter.js",
+        "process.owner": "sri",
+        "host.name": "Sri-MacBook.local",
+        "host.arch": "arm64",
+        "host.id": "A62B053A-8D3A-57DE-A155-F4B3273F96D7"
+      }
+    },
+    "instrumentationScope": {
+      "name": "mock-tracer",
+      "version": "undefined",
+      "schemaUrl": "undefined"
+    },
+    "traceId": "b85be1ec81338f069c26974ac03dc3ba",
+    "parentid": "6da73fbb74ef5bda",
+    "traceState": "undefined",
+    "name": "level-3-span-1",
+    "id": "42bf0614abfb7890",
+    "kind": 0,
+    "timestamp": 1736397352826000,
+    "duration": 115851.083,
+    "attributes": {},
+    "status": {
+      "code": 0
+    },
+    "events": [],
+    "links": []
+  },
+  {
+    "resource": {
+      "attributes": {
+        "service.name": "mock-otel-app",
+        "telemetry.sdk.language": "nodejs",
+        "telemetry.sdk.name": "opentelemetry",
+        "telemetry.sdk.version": "1.30.0",
+        "service.version": "1.0.0",
+        "process.pid": 20288,
+        "process.executable.name": "node",
+        "process.executable.path": "/usr/local/bin/node",
+        "process.command_args": [
+          "/usr/local/bin/node",
+          "/Users/sri/trace_generator/app/traceExporter.js"
+        ],
+        "process.runtime.version": "20.11.1",
+        "process.runtime.name": "nodejs",
+        "process.runtime.description": "Node.js",
+        "process.command": "/Users/sri/trace_generator/app/traceExporter.js",
+        "process.owner": "sri",
+        "host.name": "Sri-MacBook.local",
+        "host.arch": "arm64",
+        "host.id": "A62B053A-8D3A-57DE-A155-F4B3273F96D7"
+      }
+    },
+    "instrumentationScope": {
+      "name": "mock-tracer",
+      "version": "undefined",
+      "schemaUrl": "undefined"
+    },
+    "traceId": "b85be1ec81338f069c26974ac03dc3ba",
+    "parentid": "768809da4457d420",
+    "traceState": "undefined",
+    "name": "level-2-span-1",
+    "id": "f521eda63d258b68",
+    "kind": 0,
+    "timestamp": 1736397352813000,
+    "duration": 138430.292,
+    "attributes": {},
+    "status": {
+      "code": 0
+    },
+    "events": [],
+    "links": []
+  },
+  {
+    "resource": {
+      "attributes": {
+        "service.name": "mock-otel-app",
+        "telemetry.sdk.language": "nodejs",
+        "telemetry.sdk.name": "opentelemetry",
+        "telemetry.sdk.version": "1.30.0",
+        "service.version": "1.0.0",
+        "process.pid": 20288,
+        "process.executable.name": "node",
+        "process.executable.path": "/usr/local/bin/node",
+        "process.command_args": [
+          "/usr/local/bin/node",
+          "/Users/sri/trace_generator/app/traceExporter.js"
+        ],
+        "process.runtime.version": "20.11.1",
+        "process.runtime.name": "nodejs",
+        "process.runtime.description": "Node.js",
+        "process.command": "/Users/sri/trace_generator/app/traceExporter.js",
+        "process.owner": "sri",
+        "host.name": "Sri-MacBook.local",
+        "host.arch": "arm64",
+        "host.id": "A62B053A-8D3A-57DE-A155-F4B3273F96D7"
+      }
+    },
+    "instrumentationScope": {
+      "name": "mock-tracer",
+      "version": "undefined",
+      "schemaUrl": "undefined"
+    },
+    "traceId": "b85be1ec81338f069c26974ac03dc3ba",
+    "parentid": "f521eda63d258b68",
+    "traceState": "undefined",
+    "name": "level-3-span-1",
+    "id": "d8f7b6db00242079",
+    "kind": 0,
+    "timestamp": 1736397352951000,
+    "duration": 24348.75,
+    "attributes": {},
+    "status": {
+      "code": 0
+    },
+    "events": [],
+    "links": []
+  },
+  {
+    "resource": {
+      "attributes": {
+        "service.name": "mock-otel-app",
+        "telemetry.sdk.language": "nodejs",
+        "telemetry.sdk.name": "opentelemetry",
+        "telemetry.sdk.version": "1.30.0",
+        "service.version": "1.0.0",
+        "process.pid": 20288,
+        "process.executable.name": "node",
+        "process.executable.path": "/usr/local/bin/node",
+        "process.command_args": [
+          "/usr/local/bin/node",
+          "/Users/sri/trace_generator/app/traceExporter.js"
+        ],
+        "process.runtime.version": "20.11.1",
+        "process.runtime.name": "nodejs",
+        "process.runtime.description": "Node.js",
+        "process.command": "/Users/sri/trace_generator/app/traceExporter.js",
+        "process.owner": "sri",
+        "host.name": "Sri-MacBook.local",
+        "host.arch": "arm64",
+        "host.id": "A62B053A-8D3A-57DE-A155-F4B3273F96D7"
+      }
+    },
+    "instrumentationScope": {
+      "name": "mock-tracer",
+      "version": "undefined",
+      "schemaUrl": "undefined"
+    },
+    "traceId": "b85be1ec81338f069c26974ac03dc3ba",
+    "parentid": "6da73fbb74ef5bda",
+    "traceState": "undefined",
+    "name": "level-3-span-2",
+    "id": "9fbe0252becc6a78",
+    "kind": 0,
+    "timestamp": 1736397352826000,
+    "duration": 195021.584,
+    "attributes": {},
+    "status": {
+      "code": 0
+    },
+    "events": [],
+    "links": []
+  },
+  {
+    "resource": {
+      "attributes": {
+        "service.name": "mock-otel-app",
+        "telemetry.sdk.language": "nodejs",
+        "telemetry.sdk.name": "opentelemetry",
+        "telemetry.sdk.version": "1.30.0",
+        "service.version": "1.0.0",
+        "process.pid": 20288,
+        "process.executable.name": "node",
+        "process.executable.path": "/usr/local/bin/node",
+        "process.command_args": [
+          "/usr/local/bin/node",
+          "/Users/sri/trace_generator/app/traceExporter.js"
+        ],
+        "process.runtime.version": "20.11.1",
+        "process.runtime.name": "nodejs",
+        "process.runtime.description": "Node.js",
+        "process.command": "/Users/sri/trace_generator/app/traceExporter.js",
+        "process.owner": "sri",
+        "host.name": "Sri-MacBook.local",
+        "host.arch": "arm64",
+        "host.id": "A62B053A-8D3A-57DE-A155-F4B3273F96D7"
+      }
+    },
+    "instrumentationScope": {
+      "name": "mock-tracer",
+      "version": "undefined",
+      "schemaUrl": "undefined"
+    },
+    "traceId": "b85be1ec81338f069c26974ac03dc3ba",
+    "parentid": "56d3d740e29a026c",
+    "traceState": "undefined",
+    "name": "level-3-span-1",
+    "id": "7caaafe8ea266e0e",
+    "kind": 0,
+    "timestamp": 1736397352650000,
+    "duration": 429097.792,
+    "attributes": {},
+    "status": {
+      "code": 0
+    },
+    "events": [],
+    "links": []
+  },
+  {
+    "resource": {
+      "attributes": {
+        "service.name": "mock-otel-app",
+        "telemetry.sdk.language": "nodejs",
+        "telemetry.sdk.name": "opentelemetry",
+        "telemetry.sdk.version": "1.30.0",
+        "service.version": "1.0.0",
+        "process.pid": 20288,
+        "process.executable.name": "node",
+        "process.executable.path": "/usr/local/bin/node",
+        "process.command_args": [
+          "/usr/local/bin/node",
+          "/Users/sri/trace_generator/app/traceExporter.js"
+        ],
+        "process.runtime.version": "20.11.1",
+        "process.runtime.name": "nodejs",
+        "process.runtime.description": "Node.js",
+        "process.command": "/Users/sri/trace_generator/app/traceExporter.js",
+        "process.owner": "sri",
+        "host.name": "Sri-MacBook.local",
+        "host.arch": "arm64",
+        "host.id": "A62B053A-8D3A-57DE-A155-F4B3273F96D7"
+      }
+    },
+    "instrumentationScope": {
+      "name": "mock-tracer",
+      "version": "undefined",
+      "schemaUrl": "undefined"
+    },
+    "traceId": "b85be1ec81338f069c26974ac03dc3ba",
+    "parentid": "f41d227bba40b51c",
+    "traceState": "undefined",
+    "name": "level-1-span-3",
+    "id": "2250ad8e4456e18e",
+    "kind": 0,
+    "timestamp": 1736397352182000,
+    "duration": 955029.708,
+    "attributes": {},
+    "status": {
+      "code": 0
+    },
+    "events": [],
+    "links": []
+  },
+  {
+    "resource": {
+      "attributes": {
+        "service.name": "mock-otel-app",
+        "telemetry.sdk.language": "nodejs",
+        "telemetry.sdk.name": "opentelemetry",
+        "telemetry.sdk.version": "1.30.0",
+        "service.version": "1.0.0",
+        "process.pid": 20288,
+        "process.executable.name": "node",
+        "process.executable.path": "/usr/local/bin/node",
+        "process.command_args": [
+          "/usr/local/bin/node",
+          "/Users/sri/trace_generator/app/traceExporter.js"
+        ],
+        "process.runtime.version": "20.11.1",
+        "process.runtime.name": "nodejs",
+        "process.runtime.description": "Node.js",
+        "process.command": "/Users/sri/trace_generator/app/traceExporter.js",
+        "process.owner": "sri",
+        "host.name": "Sri-MacBook.local",
+        "host.arch": "arm64",
+        "host.id": "A62B053A-8D3A-57DE-A155-F4B3273F96D7"
+      }
+    },
+    "instrumentationScope": {
+      "name": "mock-tracer",
+      "version": "undefined",
+      "schemaUrl": "undefined"
+    },
+    "traceId": "b85be1ec81338f069c26974ac03dc3ba",
+    "parentid": "56d3d740e29a026c",
+    "traceState": "undefined",
+    "name": "level-3-span-3",
+    "id": "a4a13f9f5a0fb262",
+    "kind": 0,
+    "timestamp": 1736397352651000,
+    "duration": 488216.292,
+    "attributes": {},
+    "status": {
+      "code": 0
+    },
+    "events": [],
+    "links": []
+  },
+  {
+    "resource": {
+      "attributes": {
+        "service.name": "mock-otel-app",
+        "telemetry.sdk.language": "nodejs",
+        "telemetry.sdk.name": "opentelemetry",
+        "telemetry.sdk.version": "1.30.0",
+        "service.version": "1.0.0",
+        "process.pid": 20288,
+        "process.executable.name": "node",
+        "process.executable.path": "/usr/local/bin/node",
+        "process.command_args": [
+          "/usr/local/bin/node",
+          "/Users/sri/trace_generator/app/traceExporter.js"
+        ],
+        "process.runtime.version": "20.11.1",
+        "process.runtime.name": "nodejs",
+        "process.runtime.description": "Node.js",
+        "process.command": "/Users/sri/trace_generator/app/traceExporter.js",
+        "process.owner": "sri",
+        "host.name": "Sri-MacBook.local",
+        "host.arch": "arm64",
+        "host.id": "A62B053A-8D3A-57DE-A155-F4B3273F96D7"
+      }
+    },
+    "instrumentationScope": {
+      "name": "mock-tracer",
+      "version": "undefined",
+      "schemaUrl": "undefined"
+    },
+    "traceId": "b85be1ec81338f069c26974ac03dc3ba",
+    "parentid": "e7874ea00e062b79",
+    "traceState": "undefined",
+    "name": "level-3-span-3",
+    "id": "c22a4fe819324ced",
+    "kind": 0,
+    "timestamp": 1736397352628000,
+    "duration": 569490.833,
+    "attributes": {},
+    "status": {
+      "code": 0
+    },
+    "events": [],
+    "links": []
+  },
+  {
+    "resource": {
+      "attributes": {
+        "service.name": "mock-otel-app",
+        "telemetry.sdk.language": "nodejs",
+        "telemetry.sdk.name": "opentelemetry",
+        "telemetry.sdk.version": "1.30.0",
+        "service.version": "1.0.0",
+        "process.pid": 20288,
+        "process.executable.name": "node",
+        "process.executable.path": "/usr/local/bin/node",
+        "process.command_args": [
+          "/usr/local/bin/node",
+          "/Users/sri/trace_generator/app/traceExporter.js"
+        ],
+        "process.runtime.version": "20.11.1",
+        "process.runtime.name": "nodejs",
+        "process.runtime.description": "Node.js",
+        "process.command": "/Users/sri/trace_generator/app/traceExporter.js",
+        "process.owner": "sri",
+        "host.name": "Sri-MacBook.local",
+        "host.arch": "arm64",
+        "host.id": "A62B053A-8D3A-57DE-A155-F4B3273F96D7"
+      }
+    },
+    "instrumentationScope": {
+      "name": "mock-tracer",
+      "version": "undefined",
+      "schemaUrl": "undefined"
+    },
+    "traceId": "b85be1ec81338f069c26974ac03dc3ba",
+    "parentid": "c22a4fe819324ced",
+    "traceState": "undefined",
+    "name": "level-4-span-2",
+    "id": "09edd505c0048ef5",
+    "kind": 0,
+    "timestamp": 1736397353197000,
+    "duration": 17007.542,
+    "attributes": {},
+    "status": {
+      "code": 0
+    },
+    "events": [],
+    "links": []
+  },
+  {
+    "resource": {
+      "attributes": {
+        "service.name": "mock-otel-app",
+        "telemetry.sdk.language": "nodejs",
+        "telemetry.sdk.name": "opentelemetry",
+        "telemetry.sdk.version": "1.30.0",
+        "service.version": "1.0.0",
+        "process.pid": 20288,
+        "process.executable.name": "node",
+        "process.executable.path": "/usr/local/bin/node",
+        "process.command_args": [
+          "/usr/local/bin/node",
+          "/Users/sri/trace_generator/app/traceExporter.js"
+        ],
+        "process.runtime.version": "20.11.1",
+        "process.runtime.name": "nodejs",
+        "process.runtime.description": "Node.js",
+        "process.command": "/Users/sri/trace_generator/app/traceExporter.js",
+        "process.owner": "sri",
+        "host.name": "Sri-MacBook.local",
+        "host.arch": "arm64",
+        "host.id": "A62B053A-8D3A-57DE-A155-F4B3273F96D7"
+      }
+    },
+    "instrumentationScope": {
+      "name": "mock-tracer",
+      "version": "undefined",
+      "schemaUrl": "undefined"
+    },
+    "traceId": "b85be1ec81338f069c26974ac03dc3ba",
+    "parentid": "c22a4fe819324ced",
+    "traceState": "undefined",
+    "name": "level-4-span-3",
+    "id": "c3076fbd3493f9e7",
+    "kind": 0,
+    "timestamp": 1736397353197000,
+    "duration": 22656.167,
+    "attributes": {},
+    "status": {
+      "code": 0
+    },
+    "events": [],
+    "links": []
+  },
+  {
+    "resource": {
+      "attributes": {
+        "service.name": "mock-otel-app",
+        "telemetry.sdk.language": "nodejs",
+        "telemetry.sdk.name": "opentelemetry",
+        "telemetry.sdk.version": "1.30.0",
+        "service.version": "1.0.0",
+        "process.pid": 20288,
+        "process.executable.name": "node",
+        "process.executable.path": "/usr/local/bin/node",
+        "process.command_args": [
+          "/usr/local/bin/node",
+          "/Users/sri/trace_generator/app/traceExporter.js"
+        ],
+        "process.runtime.version": "20.11.1",
+        "process.runtime.name": "nodejs",
+        "process.runtime.description": "Node.js",
+        "process.command": "/Users/sri/trace_generator/app/traceExporter.js",
+        "process.owner": "sri",
+        "host.name": "Sri-MacBook.local",
+        "host.arch": "arm64",
+        "host.id": "A62B053A-8D3A-57DE-A155-F4B3273F96D7"
+      }
+    },
+    "instrumentationScope": {
+      "name": "mock-tracer",
+      "version": "undefined",
+      "schemaUrl": "undefined"
+    },
+    "traceId": "b85be1ec81338f069c26974ac03dc3ba",
+    "parentid": "d8f7b6db00242079",
+    "traceState": "undefined",
+    "name": "level-4-span-1",
+    "id": "235193f3a9d7b08f",
+    "kind": 0,
+    "timestamp": 1736397352975000,
+    "duration": 251770.959,
+    "attributes": {},
+    "status": {
+      "code": 0
+    },
+    "events": [],
+    "links": []
+  },
+  {
+    "resource": {
+      "attributes": {
+        "service.name": "mock-otel-app",
+        "telemetry.sdk.language": "nodejs",
+        "telemetry.sdk.name": "opentelemetry",
+        "telemetry.sdk.version": "1.30.0",
+        "service.version": "1.0.0",
+        "process.pid": 20288,
+        "process.executable.name": "node",
+        "process.executable.path": "/usr/local/bin/node",
+        "process.command_args": [
+          "/usr/local/bin/node",
+          "/Users/sri/trace_generator/app/traceExporter.js"
+        ],
+        "process.runtime.version": "20.11.1",
+        "process.runtime.name": "nodejs",
+        "process.runtime.description": "Node.js",
+        "process.command": "/Users/sri/trace_generator/app/traceExporter.js",
+        "process.owner": "sri",
+        "host.name": "Sri-MacBook.local",
+        "host.arch": "arm64",
+        "host.id": "A62B053A-8D3A-57DE-A155-F4B3273F96D7"
+      }
+    },
+    "instrumentationScope": {
+      "name": "mock-tracer",
+      "version": "undefined",
+      "schemaUrl": "undefined"
+    },
+    "traceId": "b85be1ec81338f069c26974ac03dc3ba",
+    "parentid": "e7874ea00e062b79",
+    "traceState": "undefined",
+    "name": "level-3-span-2",
+    "id": "6961e0e59b99f263",
+    "kind": 0,
+    "timestamp": 1736397352627000,
+    "duration": 680573.541,
+    "attributes": {},
+    "status": {
+      "code": 0
+    },
+    "events": [],
+    "links": []
+  },
+  {
+    "resource": {
+      "attributes": {
+        "service.name": "mock-otel-app",
+        "telemetry.sdk.language": "nodejs",
+        "telemetry.sdk.name": "opentelemetry",
+        "telemetry.sdk.version": "1.30.0",
+        "service.version": "1.0.0",
+        "process.pid": 20288,
+        "process.executable.name": "node",
+        "process.executable.path": "/usr/local/bin/node",
+        "process.command_args": [
+          "/usr/local/bin/node",
+          "/Users/sri/trace_generator/app/traceExporter.js"
+        ],
+        "process.runtime.version": "20.11.1",
+        "process.runtime.name": "nodejs",
+        "process.runtime.description": "Node.js",
+        "process.command": "/Users/sri/trace_generator/app/traceExporter.js",
+        "process.owner": "sri",
+        "host.name": "Sri-MacBook.local",
+        "host.arch": "arm64",
+        "host.id": "A62B053A-8D3A-57DE-A155-F4B3273F96D7"
+      }
+    },
+    "instrumentationScope": {
+      "name": "mock-tracer",
+      "version": "undefined",
+      "schemaUrl": "undefined"
+    },
+    "traceId": "b85be1ec81338f069c26974ac03dc3ba",
+    "parentid": "768809da4457d420",
+    "traceState": "undefined",
+    "name": "level-2-span-2",
+    "id": "f2ae93d9e9dc6a70",
+    "kind": 0,
+    "timestamp": 1736397352813000,
+    "duration": 509450.25,
+    "attributes": {},
+    "status": {
+      "code": 0
+    },
+    "events": [],
+    "links": []
+  },
+  {
+    "resource": {
+      "attributes": {
+        "service.name": "mock-otel-app",
+        "telemetry.sdk.language": "nodejs",
+        "telemetry.sdk.name": "opentelemetry",
+        "telemetry.sdk.version": "1.30.0",
+        "service.version": "1.0.0",
+        "process.pid": 20288,
+        "process.executable.name": "node",
+        "process.executable.path": "/usr/local/bin/node",
+        "process.command_args": [
+          "/usr/local/bin/node",
+          "/Users/sri/trace_generator/app/traceExporter.js"
+        ],
+        "process.runtime.version": "20.11.1",
+        "process.runtime.name": "nodejs",
+        "process.runtime.description": "Node.js",
+        "process.command": "/Users/sri/trace_generator/app/traceExporter.js",
+        "process.owner": "sri",
+        "host.name": "Sri-MacBook.local",
+        "host.arch": "arm64",
+        "host.id": "A62B053A-8D3A-57DE-A155-F4B3273F96D7"
+      }
+    },
+    "instrumentationScope": {
+      "name": "mock-tracer",
+      "version": "undefined",
+      "schemaUrl": "undefined"
+    },
+    "traceId": "b85be1ec81338f069c26974ac03dc3ba",
+    "parentid": "6961e0e59b99f263",
+    "traceState": "undefined",
+    "name": "level-4-span-3",
+    "id": "4e9ba6429c661fb2",
+    "kind": 0,
+    "timestamp": 1736397353308000,
+    "duration": 22371.791,
+    "attributes": {},
+    "status": {
+      "code": 0
+    },
+    "events": [],
+    "links": []
+  },
+  {
+    "resource": {
+      "attributes": {
+        "service.name": "mock-otel-app",
+        "telemetry.sdk.language": "nodejs",
+        "telemetry.sdk.name": "opentelemetry",
+        "telemetry.sdk.version": "1.30.0",
+        "service.version": "1.0.0",
+        "process.pid": 20288,
+        "process.executable.name": "node",
+        "process.executable.path": "/usr/local/bin/node",
+        "process.command_args": [
+          "/usr/local/bin/node",
+          "/Users/sri/trace_generator/app/traceExporter.js"
+        ],
+        "process.runtime.version": "20.11.1",
+        "process.runtime.name": "nodejs",
+        "process.runtime.description": "Node.js",
+        "process.command": "/Users/sri/trace_generator/app/traceExporter.js",
+        "process.owner": "sri",
+        "host.name": "Sri-MacBook.local",
+        "host.arch": "arm64",
+        "host.id": "A62B053A-8D3A-57DE-A155-F4B3273F96D7"
+      }
+    },
+    "instrumentationScope": {
+      "name": "mock-tracer",
+      "version": "undefined",
+      "schemaUrl": "undefined"
+    },
+    "traceId": "b85be1ec81338f069c26974ac03dc3ba",
+    "parentid": "6961e0e59b99f263",
+    "traceState": "undefined",
+    "name": "level-4-span-2",
+    "id": "92b5fce7641ba851",
+    "kind": 0,
+    "timestamp": 1736397353307000,
+    "duration": 45561.333,
+    "attributes": {},
+    "status": {
+      "code": 0
+    },
+    "events": [],
+    "links": []
+  },
+  {
+    "resource": {
+      "attributes": {
+        "service.name": "mock-otel-app",
+        "telemetry.sdk.language": "nodejs",
+        "telemetry.sdk.name": "opentelemetry",
+        "telemetry.sdk.version": "1.30.0",
+        "service.version": "1.0.0",
+        "process.pid": 20288,
+        "process.executable.name": "node",
+        "process.executable.path": "/usr/local/bin/node",
+        "process.command_args": [
+          "/usr/local/bin/node",
+          "/Users/sri/trace_generator/app/traceExporter.js"
+        ],
+        "process.runtime.version": "20.11.1",
+        "process.runtime.name": "nodejs",
+        "process.runtime.description": "Node.js",
+        "process.command": "/Users/sri/trace_generator/app/traceExporter.js",
+        "process.owner": "sri",
+        "host.name": "Sri-MacBook.local",
+        "host.arch": "arm64",
+        "host.id": "A62B053A-8D3A-57DE-A155-F4B3273F96D7"
+      }
+    },
+    "instrumentationScope": {
+      "name": "mock-tracer",
+      "version": "undefined",
+      "schemaUrl": "undefined"
+    },
+    "traceId": "b85be1ec81338f069c26974ac03dc3ba",
+    "parentid": "6da73fbb74ef5bda",
+    "traceState": "undefined",
+    "name": "level-3-span-3",
+    "id": "c47c6096c36e2c6d",
+    "kind": 0,
+    "timestamp": 1736397352826000,
+    "duration": 561558.041,
+    "attributes": {},
+    "status": {
+      "code": 0
+    },
+    "events": [],
+    "links": []
+  },
+  {
+    "resource": {
+      "attributes": {
+        "service.name": "mock-otel-app",
+        "telemetry.sdk.language": "nodejs",
+        "telemetry.sdk.name": "opentelemetry",
+        "telemetry.sdk.version": "1.30.0",
+        "service.version": "1.0.0",
+        "process.pid": 20288,
+        "process.executable.name": "node",
+        "process.executable.path": "/usr/local/bin/node",
+        "process.command_args": [
+          "/usr/local/bin/node",
+          "/Users/sri/trace_generator/app/traceExporter.js"
+        ],
+        "process.runtime.version": "20.11.1",
+        "process.runtime.name": "nodejs",
+        "process.runtime.description": "Node.js",
+        "process.command": "/Users/sri/trace_generator/app/traceExporter.js",
+        "process.owner": "sri",
+        "host.name": "Sri-MacBook.local",
+        "host.arch": "arm64",
+        "host.id": "A62B053A-8D3A-57DE-A155-F4B3273F96D7"
+      }
+    },
+    "instrumentationScope": {
+      "name": "mock-tracer",
+      "version": "undefined",
+      "schemaUrl": "undefined"
+    },
+    "traceId": "b85be1ec81338f069c26974ac03dc3ba",
+    "parentid": "e7874ea00e062b79",
+    "traceState": "undefined",
+    "name": "level-3-span-1",
+    "id": "c1b22d02d89616af",
+    "kind": 0,
+    "timestamp": 1736397352627000,
+    "duration": 762619.125,
+    "attributes": {},
+    "status": {
+      "code": 0
+    },
+    "events": [],
+    "links": []
+  },
+  {
+    "resource": {
+      "attributes": {
+        "service.name": "mock-otel-app",
+        "telemetry.sdk.language": "nodejs",
+        "telemetry.sdk.name": "opentelemetry",
+        "telemetry.sdk.version": "1.30.0",
+        "service.version": "1.0.0",
+        "process.pid": 20288,
+        "process.executable.name": "node",
+        "process.executable.path": "/usr/local/bin/node",
+        "process.command_args": [
+          "/usr/local/bin/node",
+          "/Users/sri/trace_generator/app/traceExporter.js"
+        ],
+        "process.runtime.version": "20.11.1",
+        "process.runtime.name": "nodejs",
+        "process.runtime.description": "Node.js",
+        "process.command": "/Users/sri/trace_generator/app/traceExporter.js",
+        "process.owner": "sri",
+        "host.name": "Sri-MacBook.local",
+        "host.arch": "arm64",
+        "host.id": "A62B053A-8D3A-57DE-A155-F4B3273F96D7"
+      }
+    },
+    "instrumentationScope": {
+      "name": "mock-tracer",
+      "version": "undefined",
+      "schemaUrl": "undefined"
+    },
+    "traceId": "b85be1ec81338f069c26974ac03dc3ba",
+    "parentid": "9fbe0252becc6a78",
+    "traceState": "undefined",
+    "name": "level-4-span-2",
+    "id": "75e8e324882a1880",
+    "kind": 0,
+    "timestamp": 1736397353020000,
+    "duration": 391855.375,
+    "attributes": {},
+    "status": {
+      "code": 0
+    },
+    "events": [],
+    "links": []
+  },
+  {
+    "resource": {
+      "attributes": {
+        "service.name": "mock-otel-app",
+        "telemetry.sdk.language": "nodejs",
+        "telemetry.sdk.name": "opentelemetry",
+        "telemetry.sdk.version": "1.30.0",
+        "service.version": "1.0.0",
+        "process.pid": 20288,
+        "process.executable.name": "node",
+        "process.executable.path": "/usr/local/bin/node",
+        "process.command_args": [
+          "/usr/local/bin/node",
+          "/Users/sri/trace_generator/app/traceExporter.js"
+        ],
+        "process.runtime.version": "20.11.1",
+        "process.runtime.name": "nodejs",
+        "process.runtime.description": "Node.js",
+        "process.command": "/Users/sri/trace_generator/app/traceExporter.js",
+        "process.owner": "sri",
+        "host.name": "Sri-MacBook.local",
+        "host.arch": "arm64",
+        "host.id": "A62B053A-8D3A-57DE-A155-F4B3273F96D7"
+      }
+    },
+    "instrumentationScope": {
+      "name": "mock-tracer",
+      "version": "undefined",
+      "schemaUrl": "undefined"
+    },
+    "traceId": "b85be1ec81338f069c26974ac03dc3ba",
+    "parentid": "768809da4457d420",
+    "traceState": "undefined",
+    "name": "level-2-span-3",
+    "id": "0a8e38c2e99932c2",
+    "kind": 0,
+    "timestamp": 1736397352813000,
+    "duration": 631388.417,
+    "attributes": {},
+    "status": {
+      "code": 0
+    },
+    "events": [],
+    "links": []
+  },
+  {
+    "resource": {
+      "attributes": {
+        "service.name": "mock-otel-app",
+        "telemetry.sdk.language": "nodejs",
+        "telemetry.sdk.name": "opentelemetry",
+        "telemetry.sdk.version": "1.30.0",
+        "service.version": "1.0.0",
+        "process.pid": 20288,
+        "process.executable.name": "node",
+        "process.executable.path": "/usr/local/bin/node",
+        "process.command_args": [
+          "/usr/local/bin/node",
+          "/Users/sri/trace_generator/app/traceExporter.js"
+        ],
+        "process.runtime.version": "20.11.1",
+        "process.runtime.name": "nodejs",
+        "process.runtime.description": "Node.js",
+        "process.command": "/Users/sri/trace_generator/app/traceExporter.js",
+        "process.owner": "sri",
+        "host.name": "Sri-MacBook.local",
+        "host.arch": "arm64",
+        "host.id": "A62B053A-8D3A-57DE-A155-F4B3273F96D7"
+      }
+    },
+    "instrumentationScope": {
+      "name": "mock-tracer",
+      "version": "undefined",
+      "schemaUrl": "undefined"
+    },
+    "traceId": "b85be1ec81338f069c26974ac03dc3ba",
+    "parentid": "c1b22d02d89616af",
+    "traceState": "undefined",
+    "name": "level-4-span-3",
+    "id": "830a514aa1be9fac",
+    "kind": 0,
+    "timestamp": 1736397353389000,
+    "duration": 55349.667,
+    "attributes": {},
+    "status": {
+      "code": 0
+    },
+    "events": [],
+    "links": []
+  },
+  {
+    "resource": {
+      "attributes": {
+        "service.name": "mock-otel-app",
+        "telemetry.sdk.language": "nodejs",
+        "telemetry.sdk.name": "opentelemetry",
+        "telemetry.sdk.version": "1.30.0",
+        "service.version": "1.0.0",
+        "process.pid": 20288,
+        "process.executable.name": "node",
+        "process.executable.path": "/usr/local/bin/node",
+        "process.command_args": [
+          "/usr/local/bin/node",
+          "/Users/sri/trace_generator/app/traceExporter.js"
+        ],
+        "process.runtime.version": "20.11.1",
+        "process.runtime.name": "nodejs",
+        "process.runtime.description": "Node.js",
+        "process.command": "/Users/sri/trace_generator/app/traceExporter.js",
+        "process.owner": "sri",
+        "host.name": "Sri-MacBook.local",
+        "host.arch": "arm64",
+        "host.id": "A62B053A-8D3A-57DE-A155-F4B3273F96D7"
+      }
+    },
+    "instrumentationScope": {
+      "name": "mock-tracer",
+      "version": "undefined",
+      "schemaUrl": "undefined"
+    },
+    "traceId": "b85be1ec81338f069c26974ac03dc3ba",
+    "parentid": "56d3d740e29a026c",
+    "traceState": "undefined",
+    "name": "level-3-span-2",
+    "id": "9b5bf639a4c730a4",
+    "kind": 0,
+    "timestamp": 1736397352650000,
+    "duration": 813576.291,
+    "attributes": {},
+    "status": {
+      "code": 0
+    },
+    "events": [],
+    "links": []
+  },
+  {
+    "resource": {
+      "attributes": {
+        "service.name": "mock-otel-app",
+        "telemetry.sdk.language": "nodejs",
+        "telemetry.sdk.name": "opentelemetry",
+        "telemetry.sdk.version": "1.30.0",
+        "service.version": "1.0.0",
+        "process.pid": 20288,
+        "process.executable.name": "node",
+        "process.executable.path": "/usr/local/bin/node",
+        "process.command_args": [
+          "/usr/local/bin/node",
+          "/Users/sri/trace_generator/app/traceExporter.js"
+        ],
+        "process.runtime.version": "20.11.1",
+        "process.runtime.name": "nodejs",
+        "process.runtime.description": "Node.js",
+        "process.command": "/Users/sri/trace_generator/app/traceExporter.js",
+        "process.owner": "sri",
+        "host.name": "Sri-MacBook.local",
+        "host.arch": "arm64",
+        "host.id": "A62B053A-8D3A-57DE-A155-F4B3273F96D7"
+      }
+    },
+    "instrumentationScope": {
+      "name": "mock-tracer",
+      "version": "undefined",
+      "schemaUrl": "undefined"
+    },
+    "traceId": "b85be1ec81338f069c26974ac03dc3ba",
+    "parentid": "d8f7b6db00242079",
+    "traceState": "undefined",
+    "name": "level-4-span-3",
+    "id": "1129bfaed4d43ccc",
+    "kind": 0,
+    "timestamp": 1736397352975000,
+    "duration": 498438.209,
+    "attributes": {},
+    "status": {
+      "code": 0
+    },
+    "events": [],
+    "links": []
+  },
+  {
+    "resource": {
+      "attributes": {
+        "service.name": "mock-otel-app",
+        "telemetry.sdk.language": "nodejs",
+        "telemetry.sdk.name": "opentelemetry",
+        "telemetry.sdk.version": "1.30.0",
+        "service.version": "1.0.0",
+        "process.pid": 20288,
+        "process.executable.name": "node",
+        "process.executable.path": "/usr/local/bin/node",
+        "process.command_args": [
+          "/usr/local/bin/node",
+          "/Users/sri/trace_generator/app/traceExporter.js"
+        ],
+        "process.runtime.version": "20.11.1",
+        "process.runtime.name": "nodejs",
+        "process.runtime.description": "Node.js",
+        "process.command": "/Users/sri/trace_generator/app/traceExporter.js",
+        "process.owner": "sri",
+        "host.name": "Sri-MacBook.local",
+        "host.arch": "arm64",
+        "host.id": "A62B053A-8D3A-57DE-A155-F4B3273F96D7"
+      }
+    },
+    "instrumentationScope": {
+      "name": "mock-tracer",
+      "version": "undefined",
+      "schemaUrl": "undefined"
+    },
+    "traceId": "b85be1ec81338f069c26974ac03dc3ba",
+    "parentid": "f521eda63d258b68",
+    "traceState": "undefined",
+    "name": "level-3-span-2",
+    "id": "f9a759f802824ffd",
+    "kind": 0,
+    "timestamp": 1736397352951000,
+    "duration": 598698.75,
+    "attributes": {},
+    "status": {
+      "code": 0
+    },
+    "events": [],
+    "links": []
+  },
+  {
+    "resource": {
+      "attributes": {
+        "service.name": "mock-otel-app",
+        "telemetry.sdk.language": "nodejs",
+        "telemetry.sdk.name": "opentelemetry",
+        "telemetry.sdk.version": "1.30.0",
+        "service.version": "1.0.0",
+        "process.pid": 20288,
+        "process.executable.name": "node",
+        "process.executable.path": "/usr/local/bin/node",
+        "process.command_args": [
+          "/usr/local/bin/node",
+          "/Users/sri/trace_generator/app/traceExporter.js"
+        ],
+        "process.runtime.version": "20.11.1",
+        "process.runtime.name": "nodejs",
+        "process.runtime.description": "Node.js",
+        "process.command": "/Users/sri/trace_generator/app/traceExporter.js",
+        "process.owner": "sri",
+        "host.name": "Sri-MacBook.local",
+        "host.arch": "arm64",
+        "host.id": "A62B053A-8D3A-57DE-A155-F4B3273F96D7"
+      }
+    },
+    "instrumentationScope": {
+      "name": "mock-tracer",
+      "version": "undefined",
+      "schemaUrl": "undefined"
+    },
+    "traceId": "b85be1ec81338f069c26974ac03dc3ba",
+    "parentid": "f2ae93d9e9dc6a70",
+    "traceState": "undefined",
+    "name": "level-3-span-2",
+    "id": "097bcfe483e920cc",
+    "kind": 0,
+    "timestamp": 1736397353322000,
+    "duration": 242486.958,
+    "attributes": {},
+    "status": {
+      "code": 0
+    },
+    "events": [],
+    "links": []
+  },
+  {
+    "resource": {
+      "attributes": {
+        "service.name": "mock-otel-app",
+        "telemetry.sdk.language": "nodejs",
+        "telemetry.sdk.name": "opentelemetry",
+        "telemetry.sdk.version": "1.30.0",
+        "service.version": "1.0.0",
+        "process.pid": 20288,
+        "process.executable.name": "node",
+        "process.executable.path": "/usr/local/bin/node",
+        "process.command_args": [
+          "/usr/local/bin/node",
+          "/Users/sri/trace_generator/app/traceExporter.js"
+        ],
+        "process.runtime.version": "20.11.1",
+        "process.runtime.name": "nodejs",
+        "process.runtime.description": "Node.js",
+        "process.command": "/Users/sri/trace_generator/app/traceExporter.js",
+        "process.owner": "sri",
+        "host.name": "Sri-MacBook.local",
+        "host.arch": "arm64",
+        "host.id": "A62B053A-8D3A-57DE-A155-F4B3273F96D7"
+      }
+    },
+    "instrumentationScope": {
+      "name": "mock-tracer",
+      "version": "undefined",
+      "schemaUrl": "undefined"
+    },
+    "traceId": "b85be1ec81338f069c26974ac03dc3ba",
+    "parentid": "f9a759f802824ffd",
+    "traceState": "undefined",
+    "name": "level-4-span-3",
+    "id": "951ec20f950a52c5",
+    "kind": 0,
+    "timestamp": 1736397353550000,
+    "duration": 18369.458,
+    "attributes": {},
+    "status": {
+      "code": 0
+    },
+    "events": [],
+    "links": []
+  },
+  {
+    "resource": {
+      "attributes": {
+        "service.name": "mock-otel-app",
+        "telemetry.sdk.language": "nodejs",
+        "telemetry.sdk.name": "opentelemetry",
+        "telemetry.sdk.version": "1.30.0",
+        "service.version": "1.0.0",
+        "process.pid": 20288,
+        "process.executable.name": "node",
+        "process.executable.path": "/usr/local/bin/node",
+        "process.command_args": [
+          "/usr/local/bin/node",
+          "/Users/sri/trace_generator/app/traceExporter.js"
+        ],
+        "process.runtime.version": "20.11.1",
+        "process.runtime.name": "nodejs",
+        "process.runtime.description": "Node.js",
+        "process.command": "/Users/sri/trace_generator/app/traceExporter.js",
+        "process.owner": "sri",
+        "host.name": "Sri-MacBook.local",
+        "host.arch": "arm64",
+        "host.id": "A62B053A-8D3A-57DE-A155-F4B3273F96D7"
+      }
+    },
+    "instrumentationScope": {
+      "name": "mock-tracer",
+      "version": "undefined",
+      "schemaUrl": "undefined"
+    },
+    "traceId": "b85be1ec81338f069c26974ac03dc3ba",
+    "parentid": "c47c6096c36e2c6d",
+    "traceState": "undefined",
+    "name": "level-4-span-2",
+    "id": "7e3ce61d63cb4f09",
+    "kind": 0,
+    "timestamp": 1736397353387000,
+    "duration": 191193.875,
+    "attributes": {},
+    "status": {
+      "code": 0
+    },
+    "events": [],
+    "links": []
+  },
+  {
+    "resource": {
+      "attributes": {
+        "service.name": "mock-otel-app",
+        "telemetry.sdk.language": "nodejs",
+        "telemetry.sdk.name": "opentelemetry",
+        "telemetry.sdk.version": "1.30.0",
+        "service.version": "1.0.0",
+        "process.pid": 20288,
+        "process.executable.name": "node",
+        "process.executable.path": "/usr/local/bin/node",
+        "process.command_args": [
+          "/usr/local/bin/node",
+          "/Users/sri/trace_generator/app/traceExporter.js"
+        ],
+        "process.runtime.version": "20.11.1",
+        "process.runtime.name": "nodejs",
+        "process.runtime.description": "Node.js",
+        "process.command": "/Users/sri/trace_generator/app/traceExporter.js",
+        "process.owner": "sri",
+        "host.name": "Sri-MacBook.local",
+        "host.arch": "arm64",
+        "host.id": "A62B053A-8D3A-57DE-A155-F4B3273F96D7"
+      }
+    },
+    "instrumentationScope": {
+      "name": "mock-tracer",
+      "version": "undefined",
+      "schemaUrl": "undefined"
+    },
+    "traceId": "b85be1ec81338f069c26974ac03dc3ba",
+    "parentid": "d8f7b6db00242079",
+    "traceState": "undefined",
+    "name": "level-4-span-2",
+    "id": "f05ef83365aae1ab",
+    "kind": 0,
+    "timestamp": 1736397352975000,
+    "duration": 641151.458,
+    "attributes": {},
+    "status": {
+      "code": 0
+    },
+    "events": [],
+    "links": []
+  },
+  {
+    "resource": {
+      "attributes": {
+        "service.name": "mock-otel-app",
+        "telemetry.sdk.language": "nodejs",
+        "telemetry.sdk.name": "opentelemetry",
+        "telemetry.sdk.version": "1.30.0",
+        "service.version": "1.0.0",
+        "process.pid": 20288,
+        "process.executable.name": "node",
+        "process.executable.path": "/usr/local/bin/node",
+        "process.command_args": [
+          "/usr/local/bin/node",
+          "/Users/sri/trace_generator/app/traceExporter.js"
+        ],
+        "process.runtime.version": "20.11.1",
+        "process.runtime.name": "nodejs",
+        "process.runtime.description": "Node.js",
+        "process.command": "/Users/sri/trace_generator/app/traceExporter.js",
+        "process.owner": "sri",
+        "host.name": "Sri-MacBook.local",
+        "host.arch": "arm64",
+        "host.id": "A62B053A-8D3A-57DE-A155-F4B3273F96D7"
+      }
+    },
+    "instrumentationScope": {
+      "name": "mock-tracer",
+      "version": "undefined",
+      "schemaUrl": "undefined"
+    },
+    "traceId": "b85be1ec81338f069c26974ac03dc3ba",
+    "parentid": "0a8e38c2e99932c2",
+    "traceState": "undefined",
+    "name": "level-3-span-2",
+    "id": "6467718a7c0aad4d",
+    "kind": 0,
+    "timestamp": 1736397353444000,
+    "duration": 249393.458,
+    "attributes": {},
+    "status": {
+      "code": 0
+    },
+    "events": [],
+    "links": []
+  },
+  {
+    "resource": {
+      "attributes": {
+        "service.name": "mock-otel-app",
+        "telemetry.sdk.language": "nodejs",
+        "telemetry.sdk.name": "opentelemetry",
+        "telemetry.sdk.version": "1.30.0",
+        "service.version": "1.0.0",
+        "process.pid": 20288,
+        "process.executable.name": "node",
+        "process.executable.path": "/usr/local/bin/node",
+        "process.command_args": [
+          "/usr/local/bin/node",
+          "/Users/sri/trace_generator/app/traceExporter.js"
+        ],
+        "process.runtime.version": "20.11.1",
+        "process.runtime.name": "nodejs",
+        "process.runtime.description": "Node.js",
+        "process.command": "/Users/sri/trace_generator/app/traceExporter.js",
+        "process.owner": "sri",
+        "host.name": "Sri-MacBook.local",
+        "host.arch": "arm64",
+        "host.id": "A62B053A-8D3A-57DE-A155-F4B3273F96D7"
+      }
+    },
+    "instrumentationScope": {
+      "name": "mock-tracer",
+      "version": "undefined",
+      "schemaUrl": "undefined"
+    },
+    "traceId": "b85be1ec81338f069c26974ac03dc3ba",
+    "parentid": "a4a13f9f5a0fb262",
+    "traceState": "undefined",
+    "name": "level-4-span-3",
+    "id": "21c416201fd385c0",
+    "kind": 0,
+    "timestamp": 1736397353139000,
+    "duration": 567464.875,
+    "attributes": {},
+    "status": {
+      "code": 0
+    },
+    "events": [],
+    "links": []
+  },
+  {
+    "resource": {
+      "attributes": {
+        "service.name": "mock-otel-app",
+        "telemetry.sdk.language": "nodejs",
+        "telemetry.sdk.name": "opentelemetry",
+        "telemetry.sdk.version": "1.30.0",
+        "service.version": "1.0.0",
+        "process.pid": 20288,
+        "process.executable.name": "node",
+        "process.executable.path": "/usr/local/bin/node",
+        "process.command_args": [
+          "/usr/local/bin/node",
+          "/Users/sri/trace_generator/app/traceExporter.js"
+        ],
+        "process.runtime.version": "20.11.1",
+        "process.runtime.name": "nodejs",
+        "process.runtime.description": "Node.js",
+        "process.command": "/Users/sri/trace_generator/app/traceExporter.js",
+        "process.owner": "sri",
+        "host.name": "Sri-MacBook.local",
+        "host.arch": "arm64",
+        "host.id": "A62B053A-8D3A-57DE-A155-F4B3273F96D7"
+      }
+    },
+    "instrumentationScope": {
+      "name": "mock-tracer",
+      "version": "undefined",
+      "schemaUrl": "undefined"
+    },
+    "traceId": "b85be1ec81338f069c26974ac03dc3ba",
+    "parentid": "42bf0614abfb7890",
+    "traceState": "undefined",
+    "name": "level-4-span-1",
+    "id": "b88635e85c786ed6",
+    "kind": 0,
+    "timestamp": 1736397352941000,
+    "duration": 779230.625,
+    "attributes": {},
+    "status": {
+      "code": 0
+    },
+    "events": [],
+    "links": []
+  },
+  {
+    "resource": {
+      "attributes": {
+        "service.name": "mock-otel-app",
+        "telemetry.sdk.language": "nodejs",
+        "telemetry.sdk.name": "opentelemetry",
+        "telemetry.sdk.version": "1.30.0",
+        "service.version": "1.0.0",
+        "process.pid": 20288,
+        "process.executable.name": "node",
+        "process.executable.path": "/usr/local/bin/node",
+        "process.command_args": [
+          "/usr/local/bin/node",
+          "/Users/sri/trace_generator/app/traceExporter.js"
+        ],
+        "process.runtime.version": "20.11.1",
+        "process.runtime.name": "nodejs",
+        "process.runtime.description": "Node.js",
+        "process.command": "/Users/sri/trace_generator/app/traceExporter.js",
+        "process.owner": "sri",
+        "host.name": "Sri-MacBook.local",
+        "host.arch": "arm64",
+        "host.id": "A62B053A-8D3A-57DE-A155-F4B3273F96D7"
+      }
+    },
+    "instrumentationScope": {
+      "name": "mock-tracer",
+      "version": "undefined",
+      "schemaUrl": "undefined"
+    },
+    "traceId": "b85be1ec81338f069c26974ac03dc3ba",
+    "parentid": "c47c6096c36e2c6d",
+    "traceState": "undefined",
+    "name": "level-4-span-3",
+    "id": "5a815e105e0ba86b",
+    "kind": 0,
+    "timestamp": 1736397353387000,
+    "duration": 340617.417,
+    "attributes": {},
+    "status": {
+      "code": 0
+    },
+    "events": [],
+    "links": []
+  },
+  {
+    "resource": {
+      "attributes": {
+        "service.name": "mock-otel-app",
+        "telemetry.sdk.language": "nodejs",
+        "telemetry.sdk.name": "opentelemetry",
+        "telemetry.sdk.version": "1.30.0",
+        "service.version": "1.0.0",
+        "process.pid": 20288,
+        "process.executable.name": "node",
+        "process.executable.path": "/usr/local/bin/node",
+        "process.command_args": [
+          "/usr/local/bin/node",
+          "/Users/sri/trace_generator/app/traceExporter.js"
+        ],
+        "process.runtime.version": "20.11.1",
+        "process.runtime.name": "nodejs",
+        "process.runtime.description": "Node.js",
+        "process.command": "/Users/sri/trace_generator/app/traceExporter.js",
+        "process.owner": "sri",
+        "host.name": "Sri-MacBook.local",
+        "host.arch": "arm64",
+        "host.id": "A62B053A-8D3A-57DE-A155-F4B3273F96D7"
+      }
+    },
+    "instrumentationScope": {
+      "name": "mock-tracer",
+      "version": "undefined",
+      "schemaUrl": "undefined"
+    },
+    "traceId": "b85be1ec81338f069c26974ac03dc3ba",
+    "parentid": "9b5bf639a4c730a4",
+    "traceState": "undefined",
+    "name": "level-4-span-3",
+    "id": "4659ff14942bef59",
+    "kind": 0,
+    "timestamp": 1736397353464000,
+    "duration": 271785.333,
+    "attributes": {},
+    "status": {
+      "code": 0
+    },
+    "events": [],
+    "links": []
+  },
+  {
+    "resource": {
+      "attributes": {
+        "service.name": "mock-otel-app",
+        "telemetry.sdk.language": "nodejs",
+        "telemetry.sdk.name": "opentelemetry",
+        "telemetry.sdk.version": "1.30.0",
+        "service.version": "1.0.0",
+        "process.pid": 20288,
+        "process.executable.name": "node",
+        "process.executable.path": "/usr/local/bin/node",
+        "process.command_args": [
+          "/usr/local/bin/node",
+          "/Users/sri/trace_generator/app/traceExporter.js"
+        ],
+        "process.runtime.version": "20.11.1",
+        "process.runtime.name": "nodejs",
+        "process.runtime.description": "Node.js",
+        "process.command": "/Users/sri/trace_generator/app/traceExporter.js",
+        "process.owner": "sri",
+        "host.name": "Sri-MacBook.local",
+        "host.arch": "arm64",
+        "host.id": "A62B053A-8D3A-57DE-A155-F4B3273F96D7"
+      }
+    },
+    "instrumentationScope": {
+      "name": "mock-tracer",
+      "version": "undefined",
+      "schemaUrl": "undefined"
+    },
+    "traceId": "b85be1ec81338f069c26974ac03dc3ba",
+    "parentid": "f521eda63d258b68",
+    "traceState": "undefined",
+    "name": "level-3-span-3",
+    "id": "9540aa1d1798d837",
+    "kind": 0,
+    "timestamp": 1736397352951000,
+    "duration": 802146.084,
+    "attributes": {},
+    "status": {
+      "code": 0
+    },
+    "events": [],
+    "links": []
+  },
+  {
+    "resource": {
+      "attributes": {
+        "service.name": "mock-otel-app",
+        "telemetry.sdk.language": "nodejs",
+        "telemetry.sdk.name": "opentelemetry",
+        "telemetry.sdk.version": "1.30.0",
+        "service.version": "1.0.0",
+        "process.pid": 20288,
+        "process.executable.name": "node",
+        "process.executable.path": "/usr/local/bin/node",
+        "process.command_args": [
+          "/usr/local/bin/node",
+          "/Users/sri/trace_generator/app/traceExporter.js"
+        ],
+        "process.runtime.version": "20.11.1",
+        "process.runtime.name": "nodejs",
+        "process.runtime.description": "Node.js",
+        "process.command": "/Users/sri/trace_generator/app/traceExporter.js",
+        "process.owner": "sri",
+        "host.name": "Sri-MacBook.local",
+        "host.arch": "arm64",
+        "host.id": "A62B053A-8D3A-57DE-A155-F4B3273F96D7"
+      }
+    },
+    "instrumentationScope": {
+      "name": "mock-tracer",
+      "version": "undefined",
+      "schemaUrl": "undefined"
+    },
+    "traceId": "b85be1ec81338f069c26974ac03dc3ba",
+    "parentid": "9fbe0252becc6a78",
+    "traceState": "undefined",
+    "name": "level-4-span-1",
+    "id": "c77970d85a7ea9c5",
+    "kind": 0,
+    "timestamp": 1736397353020000,
+    "duration": 740602.75,
+    "attributes": {},
+    "status": {
+      "code": 0
+    },
+    "events": [],
+    "links": []
+  },
+  {
+    "resource": {
+      "attributes": {
+        "service.name": "mock-otel-app",
+        "telemetry.sdk.language": "nodejs",
+        "telemetry.sdk.name": "opentelemetry",
+        "telemetry.sdk.version": "1.30.0",
+        "service.version": "1.0.0",
+        "process.pid": 20288,
+        "process.executable.name": "node",
+        "process.executable.path": "/usr/local/bin/node",
+        "process.command_args": [
+          "/usr/local/bin/node",
+          "/Users/sri/trace_generator/app/traceExporter.js"
+        ],
+        "process.runtime.version": "20.11.1",
+        "process.runtime.name": "nodejs",
+        "process.runtime.description": "Node.js",
+        "process.command": "/Users/sri/trace_generator/app/traceExporter.js",
+        "process.owner": "sri",
+        "host.name": "Sri-MacBook.local",
+        "host.arch": "arm64",
+        "host.id": "A62B053A-8D3A-57DE-A155-F4B3273F96D7"
+      }
+    },
+    "instrumentationScope": {
+      "name": "mock-tracer",
+      "version": "undefined",
+      "schemaUrl": "undefined"
+    },
+    "traceId": "b85be1ec81338f069c26974ac03dc3ba",
+    "parentid": "42bf0614abfb7890",
+    "traceState": "undefined",
+    "name": "level-4-span-2",
+    "id": "683475e668c0f168",
+    "kind": 0,
+    "timestamp": 1736397352941000,
+    "duration": 837074.917,
+    "attributes": {},
+    "status": {
+      "code": 0
+    },
+    "events": [],
+    "links": []
+  },
+  {
+    "resource": {
+      "attributes": {
+        "service.name": "mock-otel-app",
+        "telemetry.sdk.language": "nodejs",
+        "telemetry.sdk.name": "opentelemetry",
+        "telemetry.sdk.version": "1.30.0",
+        "service.version": "1.0.0",
+        "process.pid": 20288,
+        "process.executable.name": "node",
+        "process.executable.path": "/usr/local/bin/node",
+        "process.command_args": [
+          "/usr/local/bin/node",
+          "/Users/sri/trace_generator/app/traceExporter.js"
+        ],
+        "process.runtime.version": "20.11.1",
+        "process.runtime.name": "nodejs",
+        "process.runtime.description": "Node.js",
+        "process.command": "/Users/sri/trace_generator/app/traceExporter.js",
+        "process.owner": "sri",
+        "host.name": "Sri-MacBook.local",
+        "host.arch": "arm64",
+        "host.id": "A62B053A-8D3A-57DE-A155-F4B3273F96D7"
+      }
+    },
+    "instrumentationScope": {
+      "name": "mock-tracer",
+      "version": "undefined",
+      "schemaUrl": "undefined"
+    },
+    "traceId": "b85be1ec81338f069c26974ac03dc3ba",
+    "parentid": "6467718a7c0aad4d",
+    "traceState": "undefined",
+    "name": "level-4-span-1",
+    "id": "5facf5c41b3c8f43",
+    "kind": 0,
+    "timestamp": 1736397353693000,
+    "duration": 98279.917,
+    "attributes": {},
+    "status": {
+      "code": 0
+    },
+    "events": [],
+    "links": []
+  },
+  {
+    "resource": {
+      "attributes": {
+        "service.name": "mock-otel-app",
+        "telemetry.sdk.language": "nodejs",
+        "telemetry.sdk.name": "opentelemetry",
+        "telemetry.sdk.version": "1.30.0",
+        "service.version": "1.0.0",
+        "process.pid": 20288,
+        "process.executable.name": "node",
+        "process.executable.path": "/usr/local/bin/node",
+        "process.command_args": [
+          "/usr/local/bin/node",
+          "/Users/sri/trace_generator/app/traceExporter.js"
+        ],
+        "process.runtime.version": "20.11.1",
+        "process.runtime.name": "nodejs",
+        "process.runtime.description": "Node.js",
+        "process.command": "/Users/sri/trace_generator/app/traceExporter.js",
+        "process.owner": "sri",
+        "host.name": "Sri-MacBook.local",
+        "host.arch": "arm64",
+        "host.id": "A62B053A-8D3A-57DE-A155-F4B3273F96D7"
+      }
+    },
+    "instrumentationScope": {
+      "name": "mock-tracer",
+      "version": "undefined",
+      "schemaUrl": "undefined"
+    },
+    "traceId": "b85be1ec81338f069c26974ac03dc3ba",
+    "parentid": "097bcfe483e920cc",
+    "traceState": "undefined",
+    "name": "level-4-span-2",
+    "id": "09990d1f6390641a",
+    "kind": 0,
+    "timestamp": 1736397353565000,
+    "duration": 227644.459,
+    "attributes": {},
+    "status": {
+      "code": 0
+    },
+    "events": [],
+    "links": []
+  },
+  {
+    "resource": {
+      "attributes": {
+        "service.name": "mock-otel-app",
+        "telemetry.sdk.language": "nodejs",
+        "telemetry.sdk.name": "opentelemetry",
+        "telemetry.sdk.version": "1.30.0",
+        "service.version": "1.0.0",
+        "process.pid": 20288,
+        "process.executable.name": "node",
+        "process.executable.path": "/usr/local/bin/node",
+        "process.command_args": [
+          "/usr/local/bin/node",
+          "/Users/sri/trace_generator/app/traceExporter.js"
+        ],
+        "process.runtime.version": "20.11.1",
+        "process.runtime.name": "nodejs",
+        "process.runtime.description": "Node.js",
+        "process.command": "/Users/sri/trace_generator/app/traceExporter.js",
+        "process.owner": "sri",
+        "host.name": "Sri-MacBook.local",
+        "host.arch": "arm64",
+        "host.id": "A62B053A-8D3A-57DE-A155-F4B3273F96D7"
+      }
+    },
+    "instrumentationScope": {
+      "name": "mock-tracer",
+      "version": "undefined",
+      "schemaUrl": "undefined"
+    },
+    "traceId": "b85be1ec81338f069c26974ac03dc3ba",
+    "parentid": "7caaafe8ea266e0e",
+    "traceState": "undefined",
+    "name": "level-4-span-3",
+    "id": "e6c6b9702bc52832",
+    "kind": 0,
+    "timestamp": 1736397353079000,
+    "duration": 722623.667,
+    "attributes": {},
+    "status": {
+      "code": 0
+    },
+    "events": [],
+    "links": []
+  },
+  {
+    "resource": {
+      "attributes": {
+        "service.name": "mock-otel-app",
+        "telemetry.sdk.language": "nodejs",
+        "telemetry.sdk.name": "opentelemetry",
+        "telemetry.sdk.version": "1.30.0",
+        "service.version": "1.0.0",
+        "process.pid": 20288,
+        "process.executable.name": "node",
+        "process.executable.path": "/usr/local/bin/node",
+        "process.command_args": [
+          "/usr/local/bin/node",
+          "/Users/sri/trace_generator/app/traceExporter.js"
+        ],
+        "process.runtime.version": "20.11.1",
+        "process.runtime.name": "nodejs",
+        "process.runtime.description": "Node.js",
+        "process.command": "/Users/sri/trace_generator/app/traceExporter.js",
+        "process.owner": "sri",
+        "host.name": "Sri-MacBook.local",
+        "host.arch": "arm64",
+        "host.id": "A62B053A-8D3A-57DE-A155-F4B3273F96D7"
+      }
+    },
+    "instrumentationScope": {
+      "name": "mock-tracer",
+      "version": "undefined",
+      "schemaUrl": "undefined"
+    },
+    "traceId": "b85be1ec81338f069c26974ac03dc3ba",
+    "parentid": "2250ad8e4456e18e",
+    "traceState": "undefined",
+    "name": "level-2-span-3",
+    "id": "8b36900f93b41dba",
+    "kind": 0,
+    "timestamp": 1736397353137000,
+    "duration": 666693.417,
+    "attributes": {},
+    "status": {
+      "code": 0
+    },
+    "events": [],
+    "links": []
+  },
+  {
+    "resource": {
+      "attributes": {
+        "service.name": "mock-otel-app",
+        "telemetry.sdk.language": "nodejs",
+        "telemetry.sdk.name": "opentelemetry",
+        "telemetry.sdk.version": "1.30.0",
+        "service.version": "1.0.0",
+        "process.pid": 20288,
+        "process.executable.name": "node",
+        "process.executable.path": "/usr/local/bin/node",
+        "process.command_args": [
+          "/usr/local/bin/node",
+          "/Users/sri/trace_generator/app/traceExporter.js"
+        ],
+        "process.runtime.version": "20.11.1",
+        "process.runtime.name": "nodejs",
+        "process.runtime.description": "Node.js",
+        "process.command": "/Users/sri/trace_generator/app/traceExporter.js",
+        "process.owner": "sri",
+        "host.name": "Sri-MacBook.local",
+        "host.arch": "arm64",
+        "host.id": "A62B053A-8D3A-57DE-A155-F4B3273F96D7"
+      }
+    },
+    "instrumentationScope": {
+      "name": "mock-tracer",
+      "version": "undefined",
+      "schemaUrl": "undefined"
+    },
+    "traceId": "b85be1ec81338f069c26974ac03dc3ba",
+    "parentid": "c1b22d02d89616af",
+    "traceState": "undefined",
+    "name": "level-4-span-1",
+    "id": "b7a9997dbfb2cabe",
+    "kind": 0,
+    "timestamp": 1736397353389000,
+    "duration": 418764.375,
+    "attributes": {},
+    "status": {
+      "code": 0
+    },
+    "events": [],
+    "links": []
+  },
+  {
+    "resource": {
+      "attributes": {
+        "service.name": "mock-otel-app",
+        "telemetry.sdk.language": "nodejs",
+        "telemetry.sdk.name": "opentelemetry",
+        "telemetry.sdk.version": "1.30.0",
+        "service.version": "1.0.0",
+        "process.pid": 20288,
+        "process.executable.name": "node",
+        "process.executable.path": "/usr/local/bin/node",
+        "process.command_args": [
+          "/usr/local/bin/node",
+          "/Users/sri/trace_generator/app/traceExporter.js"
+        ],
+        "process.runtime.version": "20.11.1",
+        "process.runtime.name": "nodejs",
+        "process.runtime.description": "Node.js",
+        "process.command": "/Users/sri/trace_generator/app/traceExporter.js",
+        "process.owner": "sri",
+        "host.name": "Sri-MacBook.local",
+        "host.arch": "arm64",
+        "host.id": "A62B053A-8D3A-57DE-A155-F4B3273F96D7"
+      }
+    },
+    "instrumentationScope": {
+      "name": "mock-tracer",
+      "version": "undefined",
+      "schemaUrl": "undefined"
+    },
+    "traceId": "b85be1ec81338f069c26974ac03dc3ba",
+    "parentid": "2250ad8e4456e18e",
+    "traceState": "undefined",
+    "name": "level-2-span-1",
+    "id": "85e3ee2dd28bcfdf",
+    "kind": 0,
+    "timestamp": 1736397353136000,
+    "duration": 673421.416,
+    "attributes": {},
+    "status": {
+      "code": 0
+    },
+    "events": [],
+    "links": []
+  },
+  {
+    "resource": {
+      "attributes": {
+        "service.name": "mock-otel-app",
+        "telemetry.sdk.language": "nodejs",
+        "telemetry.sdk.name": "opentelemetry",
+        "telemetry.sdk.version": "1.30.0",
+        "service.version": "1.0.0",
+        "process.pid": 20288,
+        "process.executable.name": "node",
+        "process.executable.path": "/usr/local/bin/node",
+        "process.command_args": [
+          "/usr/local/bin/node",
+          "/Users/sri/trace_generator/app/traceExporter.js"
+        ],
+        "process.runtime.version": "20.11.1",
+        "process.runtime.name": "nodejs",
+        "process.runtime.description": "Node.js",
+        "process.command": "/Users/sri/trace_generator/app/traceExporter.js",
+        "process.owner": "sri",
+        "host.name": "Sri-MacBook.local",
+        "host.arch": "arm64",
+        "host.id": "A62B053A-8D3A-57DE-A155-F4B3273F96D7"
+      }
+    },
+    "instrumentationScope": {
+      "name": "mock-tracer",
+      "version": "undefined",
+      "schemaUrl": "undefined"
+    },
+    "traceId": "b85be1ec81338f069c26974ac03dc3ba",
+    "parentid": "0a8e38c2e99932c2",
+    "traceState": "undefined",
+    "name": "level-3-span-3",
+    "id": "a75845c919757903",
+    "kind": 0,
+    "timestamp": 1736397353444000,
+    "duration": 382348.209,
+    "attributes": {},
+    "status": {
+      "code": 0
+    },
+    "events": [],
+    "links": []
+  },
+  {
+    "resource": {
+      "attributes": {
+        "service.name": "mock-otel-app",
+        "telemetry.sdk.language": "nodejs",
+        "telemetry.sdk.name": "opentelemetry",
+        "telemetry.sdk.version": "1.30.0",
+        "service.version": "1.0.0",
+        "process.pid": 20288,
+        "process.executable.name": "node",
+        "process.executable.path": "/usr/local/bin/node",
+        "process.command_args": [
+          "/usr/local/bin/node",
+          "/Users/sri/trace_generator/app/traceExporter.js"
+        ],
+        "process.runtime.version": "20.11.1",
+        "process.runtime.name": "nodejs",
+        "process.runtime.description": "Node.js",
+        "process.command": "/Users/sri/trace_generator/app/traceExporter.js",
+        "process.owner": "sri",
+        "host.name": "Sri-MacBook.local",
+        "host.arch": "arm64",
+        "host.id": "A62B053A-8D3A-57DE-A155-F4B3273F96D7"
+      }
+    },
+    "instrumentationScope": {
+      "name": "mock-tracer",
+      "version": "undefined",
+      "schemaUrl": "undefined"
+    },
+    "traceId": "b85be1ec81338f069c26974ac03dc3ba",
+    "parentid": "42bf0614abfb7890",
+    "traceState": "undefined",
+    "name": "level-4-span-3",
+    "id": "0952a36f511fff1c",
+    "kind": 0,
+    "timestamp": 1736397352941000,
+    "duration": 891665.125,
+    "attributes": {},
+    "status": {
+      "code": 0
+    },
+    "events": [],
+    "links": []
+  },
+  {
+    "resource": {
+      "attributes": {
+        "service.name": "mock-otel-app",
+        "telemetry.sdk.language": "nodejs",
+        "telemetry.sdk.name": "opentelemetry",
+        "telemetry.sdk.version": "1.30.0",
+        "service.version": "1.0.0",
+        "process.pid": 20288,
+        "process.executable.name": "node",
+        "process.executable.path": "/usr/local/bin/node",
+        "process.command_args": [
+          "/usr/local/bin/node",
+          "/Users/sri/trace_generator/app/traceExporter.js"
+        ],
+        "process.runtime.version": "20.11.1",
+        "process.runtime.name": "nodejs",
+        "process.runtime.description": "Node.js",
+        "process.command": "/Users/sri/trace_generator/app/traceExporter.js",
+        "process.owner": "sri",
+        "host.name": "Sri-MacBook.local",
+        "host.arch": "arm64",
+        "host.id": "A62B053A-8D3A-57DE-A155-F4B3273F96D7"
+      }
+    },
+    "instrumentationScope": {
+      "name": "mock-tracer",
+      "version": "undefined",
+      "schemaUrl": "undefined"
+    },
+    "traceId": "b85be1ec81338f069c26974ac03dc3ba",
+    "parentid": "85e3ee2dd28bcfdf",
+    "traceState": "undefined",
+    "name": "level-3-span-3",
+    "id": "14e39769c5970cd0",
+    "kind": 0,
+    "timestamp": 1736397353810000,
+    "duration": 43040.792,
+    "attributes": {},
+    "status": {
+      "code": 0
+    },
+    "events": [],
+    "links": []
+  },
+  {
+    "resource": {
+      "attributes": {
+        "service.name": "mock-otel-app",
+        "telemetry.sdk.language": "nodejs",
+        "telemetry.sdk.name": "opentelemetry",
+        "telemetry.sdk.version": "1.30.0",
+        "service.version": "1.0.0",
+        "process.pid": 20288,
+        "process.executable.name": "node",
+        "process.executable.path": "/usr/local/bin/node",
+        "process.command_args": [
+          "/usr/local/bin/node",
+          "/Users/sri/trace_generator/app/traceExporter.js"
+        ],
+        "process.runtime.version": "20.11.1",
+        "process.runtime.name": "nodejs",
+        "process.runtime.description": "Node.js",
+        "process.command": "/Users/sri/trace_generator/app/traceExporter.js",
+        "process.owner": "sri",
+        "host.name": "Sri-MacBook.local",
+        "host.arch": "arm64",
+        "host.id": "A62B053A-8D3A-57DE-A155-F4B3273F96D7"
+      }
+    },
+    "instrumentationScope": {
+      "name": "mock-tracer",
+      "version": "undefined",
+      "schemaUrl": "undefined"
+    },
+    "traceId": "b85be1ec81338f069c26974ac03dc3ba",
+    "parentid": "9540aa1d1798d837",
+    "traceState": "undefined",
+    "name": "level-4-span-3",
+    "id": "31e25d8301bdd6be",
+    "kind": 0,
+    "timestamp": 1736397353753000,
+    "duration": 107261.834,
+    "attributes": {},
+    "status": {
+      "code": 0
+    },
+    "events": [],
+    "links": []
+  },
+  {
+    "resource": {
+      "attributes": {
+        "service.name": "mock-otel-app",
+        "telemetry.sdk.language": "nodejs",
+        "telemetry.sdk.name": "opentelemetry",
+        "telemetry.sdk.version": "1.30.0",
+        "service.version": "1.0.0",
+        "process.pid": 20288,
+        "process.executable.name": "node",
+        "process.executable.path": "/usr/local/bin/node",
+        "process.command_args": [
+          "/usr/local/bin/node",
+          "/Users/sri/trace_generator/app/traceExporter.js"
+        ],
+        "process.runtime.version": "20.11.1",
+        "process.runtime.name": "nodejs",
+        "process.runtime.description": "Node.js",
+        "process.command": "/Users/sri/trace_generator/app/traceExporter.js",
+        "process.owner": "sri",
+        "host.name": "Sri-MacBook.local",
+        "host.arch": "arm64",
+        "host.id": "A62B053A-8D3A-57DE-A155-F4B3273F96D7"
+      }
+    },
+    "instrumentationScope": {
+      "name": "mock-tracer",
+      "version": "undefined",
+      "schemaUrl": "undefined"
+    },
+    "traceId": "b85be1ec81338f069c26974ac03dc3ba",
+    "parentid": "a75845c919757903",
+    "traceState": "undefined",
+    "name": "level-4-span-1",
+    "id": "a3e06ed953e86ff5",
+    "kind": 0,
+    "timestamp": 1736397353826000,
+    "duration": 48762.666,
+    "attributes": {},
+    "status": {
+      "code": 0
+    },
+    "events": [],
+    "links": []
+  },
+  {
+    "resource": {
+      "attributes": {
+        "service.name": "mock-otel-app",
+        "telemetry.sdk.language": "nodejs",
+        "telemetry.sdk.name": "opentelemetry",
+        "telemetry.sdk.version": "1.30.0",
+        "service.version": "1.0.0",
+        "process.pid": 20288,
+        "process.executable.name": "node",
+        "process.executable.path": "/usr/local/bin/node",
+        "process.command_args": [
+          "/usr/local/bin/node",
+          "/Users/sri/trace_generator/app/traceExporter.js"
+        ],
+        "process.runtime.version": "20.11.1",
+        "process.runtime.name": "nodejs",
+        "process.runtime.description": "Node.js",
+        "process.command": "/Users/sri/trace_generator/app/traceExporter.js",
+        "process.owner": "sri",
+        "host.name": "Sri-MacBook.local",
+        "host.arch": "arm64",
+        "host.id": "A62B053A-8D3A-57DE-A155-F4B3273F96D7"
+      }
+    },
+    "instrumentationScope": {
+      "name": "mock-tracer",
+      "version": "undefined",
+      "schemaUrl": "undefined"
+    },
+    "traceId": "b85be1ec81338f069c26974ac03dc3ba",
+    "parentid": "c22a4fe819324ced",
+    "traceState": "undefined",
+    "name": "level-4-span-1",
+    "id": "643b39d6380f5799",
+    "kind": 0,
+    "timestamp": 1736397353197000,
+    "duration": 699360.958,
+    "attributes": {},
+    "status": {
+      "code": 0
+    },
+    "events": [],
+    "links": []
+  },
+  {
+    "resource": {
+      "attributes": {
+        "service.name": "mock-otel-app",
+        "telemetry.sdk.language": "nodejs",
+        "telemetry.sdk.name": "opentelemetry",
+        "telemetry.sdk.version": "1.30.0",
+        "service.version": "1.0.0",
+        "process.pid": 20288,
+        "process.executable.name": "node",
+        "process.executable.path": "/usr/local/bin/node",
+        "process.command_args": [
+          "/usr/local/bin/node",
+          "/Users/sri/trace_generator/app/traceExporter.js"
+        ],
+        "process.runtime.version": "20.11.1",
+        "process.runtime.name": "nodejs",
+        "process.runtime.description": "Node.js",
+        "process.command": "/Users/sri/trace_generator/app/traceExporter.js",
+        "process.owner": "sri",
+        "host.name": "Sri-MacBook.local",
+        "host.arch": "arm64",
+        "host.id": "A62B053A-8D3A-57DE-A155-F4B3273F96D7"
+      }
+    },
+    "instrumentationScope": {
+      "name": "mock-tracer",
+      "version": "undefined",
+      "schemaUrl": "undefined"
+    },
+    "traceId": "b85be1ec81338f069c26974ac03dc3ba",
+    "parentid": "7caaafe8ea266e0e",
+    "traceState": "undefined",
+    "name": "level-4-span-2",
+    "id": "53aae2198afe5a59",
+    "kind": 0,
+    "timestamp": 1736397353079000,
+    "duration": 829308.334,
+    "attributes": {},
+    "status": {
+      "code": 0
+    },
+    "events": [],
+    "links": []
+  },
+  {
+    "resource": {
+      "attributes": {
+        "service.name": "mock-otel-app",
+        "telemetry.sdk.language": "nodejs",
+        "telemetry.sdk.name": "opentelemetry",
+        "telemetry.sdk.version": "1.30.0",
+        "service.version": "1.0.0",
+        "process.pid": 20288,
+        "process.executable.name": "node",
+        "process.executable.path": "/usr/local/bin/node",
+        "process.command_args": [
+          "/usr/local/bin/node",
+          "/Users/sri/trace_generator/app/traceExporter.js"
+        ],
+        "process.runtime.version": "20.11.1",
+        "process.runtime.name": "nodejs",
+        "process.runtime.description": "Node.js",
+        "process.command": "/Users/sri/trace_generator/app/traceExporter.js",
+        "process.owner": "sri",
+        "host.name": "Sri-MacBook.local",
+        "host.arch": "arm64",
+        "host.id": "A62B053A-8D3A-57DE-A155-F4B3273F96D7"
+      }
+    },
+    "instrumentationScope": {
+      "name": "mock-tracer",
+      "version": "undefined",
+      "schemaUrl": "undefined"
+    },
+    "traceId": "b85be1ec81338f069c26974ac03dc3ba",
+    "parentid": "2250ad8e4456e18e",
+    "traceState": "undefined",
+    "name": "level-2-span-2",
+    "id": "2509c6b7491aa780",
+    "kind": 0,
+    "timestamp": 1736397353137000,
+    "duration": 772432.917,
+    "attributes": {},
+    "status": {
+      "code": 0
+    },
+    "events": [],
+    "links": []
+  },
+  {
+    "resource": {
+      "attributes": {
+        "service.name": "mock-otel-app",
+        "telemetry.sdk.language": "nodejs",
+        "telemetry.sdk.name": "opentelemetry",
+        "telemetry.sdk.version": "1.30.0",
+        "service.version": "1.0.0",
+        "process.pid": 20288,
+        "process.executable.name": "node",
+        "process.executable.path": "/usr/local/bin/node",
+        "process.command_args": [
+          "/usr/local/bin/node",
+          "/Users/sri/trace_generator/app/traceExporter.js"
+        ],
+        "process.runtime.version": "20.11.1",
+        "process.runtime.name": "nodejs",
+        "process.runtime.description": "Node.js",
+        "process.command": "/Users/sri/trace_generator/app/traceExporter.js",
+        "process.owner": "sri",
+        "host.name": "Sri-MacBook.local",
+        "host.arch": "arm64",
+        "host.id": "A62B053A-8D3A-57DE-A155-F4B3273F96D7"
+      }
+    },
+    "instrumentationScope": {
+      "name": "mock-tracer",
+      "version": "undefined",
+      "schemaUrl": "undefined"
+    },
+    "traceId": "b85be1ec81338f069c26974ac03dc3ba",
+    "parentid": "6467718a7c0aad4d",
+    "traceState": "undefined",
+    "name": "level-4-span-3",
+    "id": "a80e970364374299",
+    "kind": 0,
+    "timestamp": 1736397353694000,
+    "duration": 215972.917,
+    "attributes": {},
+    "status": {
+      "code": 0
+    },
+    "events": [],
+    "links": []
+  },
+  {
+    "resource": {
+      "attributes": {
+        "service.name": "mock-otel-app",
+        "telemetry.sdk.language": "nodejs",
+        "telemetry.sdk.name": "opentelemetry",
+        "telemetry.sdk.version": "1.30.0",
+        "service.version": "1.0.0",
+        "process.pid": 20288,
+        "process.executable.name": "node",
+        "process.executable.path": "/usr/local/bin/node",
+        "process.command_args": [
+          "/usr/local/bin/node",
+          "/Users/sri/trace_generator/app/traceExporter.js"
+        ],
+        "process.runtime.version": "20.11.1",
+        "process.runtime.name": "nodejs",
+        "process.runtime.description": "Node.js",
+        "process.command": "/Users/sri/trace_generator/app/traceExporter.js",
+        "process.owner": "sri",
+        "host.name": "Sri-MacBook.local",
+        "host.arch": "arm64",
+        "host.id": "A62B053A-8D3A-57DE-A155-F4B3273F96D7"
+      }
+    },
+    "instrumentationScope": {
+      "name": "mock-tracer",
+      "version": "undefined",
+      "schemaUrl": "undefined"
+    },
+    "traceId": "b85be1ec81338f069c26974ac03dc3ba",
+    "parentid": "85e3ee2dd28bcfdf",
+    "traceState": "undefined",
+    "name": "level-3-span-1",
+    "id": "4c72f28ca4a55fb7",
+    "kind": 0,
+    "timestamp": 1736397353810000,
+    "duration": 105003.875,
+    "attributes": {},
+    "status": {
+      "code": 0
+    },
+    "events": [],
+    "links": []
+  },
+  {
+    "resource": {
+      "attributes": {
+        "service.name": "mock-otel-app",
+        "telemetry.sdk.language": "nodejs",
+        "telemetry.sdk.name": "opentelemetry",
+        "telemetry.sdk.version": "1.30.0",
+        "service.version": "1.0.0",
+        "process.pid": 20288,
+        "process.executable.name": "node",
+        "process.executable.path": "/usr/local/bin/node",
+        "process.command_args": [
+          "/usr/local/bin/node",
+          "/Users/sri/trace_generator/app/traceExporter.js"
+        ],
+        "process.runtime.version": "20.11.1",
+        "process.runtime.name": "nodejs",
+        "process.runtime.description": "Node.js",
+        "process.command": "/Users/sri/trace_generator/app/traceExporter.js",
+        "process.owner": "sri",
+        "host.name": "Sri-MacBook.local",
+        "host.arch": "arm64",
+        "host.id": "A62B053A-8D3A-57DE-A155-F4B3273F96D7"
+      }
+    },
+    "instrumentationScope": {
+      "name": "mock-tracer",
+      "version": "undefined",
+      "schemaUrl": "undefined"
+    },
+    "traceId": "b85be1ec81338f069c26974ac03dc3ba",
+    "parentid": "f2ae93d9e9dc6a70",
+    "traceState": "undefined",
+    "name": "level-3-span-3",
+    "id": "0e6f0f6022907822",
+    "kind": 0,
+    "timestamp": 1736397353322000,
+    "duration": 594533.666,
+    "attributes": {},
+    "status": {
+      "code": 0
+    },
+    "events": [],
+    "links": []
+  },
+  {
+    "resource": {
+      "attributes": {
+        "service.name": "mock-otel-app",
+        "telemetry.sdk.language": "nodejs",
+        "telemetry.sdk.name": "opentelemetry",
+        "telemetry.sdk.version": "1.30.0",
+        "service.version": "1.0.0",
+        "process.pid": 20288,
+        "process.executable.name": "node",
+        "process.executable.path": "/usr/local/bin/node",
+        "process.command_args": [
+          "/usr/local/bin/node",
+          "/Users/sri/trace_generator/app/traceExporter.js"
+        ],
+        "process.runtime.version": "20.11.1",
+        "process.runtime.name": "nodejs",
+        "process.runtime.description": "Node.js",
+        "process.command": "/Users/sri/trace_generator/app/traceExporter.js",
+        "process.owner": "sri",
+        "host.name": "Sri-MacBook.local",
+        "host.arch": "arm64",
+        "host.id": "A62B053A-8D3A-57DE-A155-F4B3273F96D7"
+      }
+    },
+    "instrumentationScope": {
+      "name": "mock-tracer",
+      "version": "undefined",
+      "schemaUrl": "undefined"
+    },
+    "traceId": "b85be1ec81338f069c26974ac03dc3ba",
+    "parentid": "9b5bf639a4c730a4",
+    "traceState": "undefined",
+    "name": "level-4-span-1",
+    "id": "fcbc8b0877ce77d5",
+    "kind": 0,
+    "timestamp": 1736397353463000,
+    "duration": 482758.666,
+    "attributes": {},
+    "status": {
+      "code": 0
+    },
+    "events": [],
+    "links": []
+  },
+  {
+    "resource": {
+      "attributes": {
+        "service.name": "mock-otel-app",
+        "telemetry.sdk.language": "nodejs",
+        "telemetry.sdk.name": "opentelemetry",
+        "telemetry.sdk.version": "1.30.0",
+        "service.version": "1.0.0",
+        "process.pid": 20288,
+        "process.executable.name": "node",
+        "process.executable.path": "/usr/local/bin/node",
+        "process.command_args": [
+          "/usr/local/bin/node",
+          "/Users/sri/trace_generator/app/traceExporter.js"
+        ],
+        "process.runtime.version": "20.11.1",
+        "process.runtime.name": "nodejs",
+        "process.runtime.description": "Node.js",
+        "process.command": "/Users/sri/trace_generator/app/traceExporter.js",
+        "process.owner": "sri",
+        "host.name": "Sri-MacBook.local",
+        "host.arch": "arm64",
+        "host.id": "A62B053A-8D3A-57DE-A155-F4B3273F96D7"
+      }
+    },
+    "instrumentationScope": {
+      "name": "mock-tracer",
+      "version": "undefined",
+      "schemaUrl": "undefined"
+    },
+    "traceId": "b85be1ec81338f069c26974ac03dc3ba",
+    "parentid": "9b5bf639a4c730a4",
+    "traceState": "undefined",
+    "name": "level-4-span-2",
+    "id": "b210c77db29328f7",
+    "kind": 0,
+    "timestamp": 1736397353464000,
+    "duration": 495365.25,
+    "attributes": {},
+    "status": {
+      "code": 0
+    },
+    "events": [],
+    "links": []
+  },
+  {
+    "resource": {
+      "attributes": {
+        "service.name": "mock-otel-app",
+        "telemetry.sdk.language": "nodejs",
+        "telemetry.sdk.name": "opentelemetry",
+        "telemetry.sdk.version": "1.30.0",
+        "service.version": "1.0.0",
+        "process.pid": 20288,
+        "process.executable.name": "node",
+        "process.executable.path": "/usr/local/bin/node",
+        "process.command_args": [
+          "/usr/local/bin/node",
+          "/Users/sri/trace_generator/app/traceExporter.js"
+        ],
+        "process.runtime.version": "20.11.1",
+        "process.runtime.name": "nodejs",
+        "process.runtime.description": "Node.js",
+        "process.command": "/Users/sri/trace_generator/app/traceExporter.js",
+        "process.owner": "sri",
+        "host.name": "Sri-MacBook.local",
+        "host.arch": "arm64",
+        "host.id": "A62B053A-8D3A-57DE-A155-F4B3273F96D7"
+      }
+    },
+    "instrumentationScope": {
+      "name": "mock-tracer",
+      "version": "undefined",
+      "schemaUrl": "undefined"
+    },
+    "traceId": "b85be1ec81338f069c26974ac03dc3ba",
+    "parentid": "097bcfe483e920cc",
+    "traceState": "undefined",
+    "name": "level-4-span-1",
+    "id": "f30382c5e176622d",
+    "kind": 0,
+    "timestamp": 1736397353565000,
+    "duration": 403762.75,
+    "attributes": {},
+    "status": {
+      "code": 0
+    },
+    "events": [],
+    "links": []
+  },
+  {
+    "resource": {
+      "attributes": {
+        "service.name": "mock-otel-app",
+        "telemetry.sdk.language": "nodejs",
+        "telemetry.sdk.name": "opentelemetry",
+        "telemetry.sdk.version": "1.30.0",
+        "service.version": "1.0.0",
+        "process.pid": 20288,
+        "process.executable.name": "node",
+        "process.executable.path": "/usr/local/bin/node",
+        "process.command_args": [
+          "/usr/local/bin/node",
+          "/Users/sri/trace_generator/app/traceExporter.js"
+        ],
+        "process.runtime.version": "20.11.1",
+        "process.runtime.name": "nodejs",
+        "process.runtime.description": "Node.js",
+        "process.command": "/Users/sri/trace_generator/app/traceExporter.js",
+        "process.owner": "sri",
+        "host.name": "Sri-MacBook.local",
+        "host.arch": "arm64",
+        "host.id": "A62B053A-8D3A-57DE-A155-F4B3273F96D7"
+      }
+    },
+    "instrumentationScope": {
+      "name": "mock-tracer",
+      "version": "undefined",
+      "schemaUrl": "undefined"
+    },
+    "traceId": "b85be1ec81338f069c26974ac03dc3ba",
+    "parentid": "f9a759f802824ffd",
+    "traceState": "undefined",
+    "name": "level-4-span-2",
+    "id": "59b85abab00c7c8e",
+    "kind": 0,
+    "timestamp": 1736397353550000,
+    "duration": 426077.292,
+    "attributes": {},
+    "status": {
+      "code": 0
+    },
+    "events": [],
+    "links": []
+  },
+  {
+    "resource": {
+      "attributes": {
+        "service.name": "mock-otel-app",
+        "telemetry.sdk.language": "nodejs",
+        "telemetry.sdk.name": "opentelemetry",
+        "telemetry.sdk.version": "1.30.0",
+        "service.version": "1.0.0",
+        "process.pid": 20288,
+        "process.executable.name": "node",
+        "process.executable.path": "/usr/local/bin/node",
+        "process.command_args": [
+          "/usr/local/bin/node",
+          "/Users/sri/trace_generator/app/traceExporter.js"
+        ],
+        "process.runtime.version": "20.11.1",
+        "process.runtime.name": "nodejs",
+        "process.runtime.description": "Node.js",
+        "process.command": "/Users/sri/trace_generator/app/traceExporter.js",
+        "process.owner": "sri",
+        "host.name": "Sri-MacBook.local",
+        "host.arch": "arm64",
+        "host.id": "A62B053A-8D3A-57DE-A155-F4B3273F96D7"
+      }
+    },
+    "instrumentationScope": {
+      "name": "mock-tracer",
+      "version": "undefined",
+      "schemaUrl": "undefined"
+    },
+    "traceId": "b85be1ec81338f069c26974ac03dc3ba",
+    "parentid": "c47c6096c36e2c6d",
+    "traceState": "undefined",
+    "name": "level-4-span-1",
+    "id": "d7d35edae9ae254c",
+    "kind": 0,
+    "timestamp": 1736397353387000,
+    "duration": 600136.5,
+    "attributes": {},
+    "status": {
+      "code": 0
+    },
+    "events": [],
+    "links": []
+  },
+  {
+    "resource": {
+      "attributes": {
+        "service.name": "mock-otel-app",
+        "telemetry.sdk.language": "nodejs",
+        "telemetry.sdk.name": "opentelemetry",
+        "telemetry.sdk.version": "1.30.0",
+        "service.version": "1.0.0",
+        "process.pid": 20288,
+        "process.executable.name": "node",
+        "process.executable.path": "/usr/local/bin/node",
+        "process.command_args": [
+          "/usr/local/bin/node",
+          "/Users/sri/trace_generator/app/traceExporter.js"
+        ],
+        "process.runtime.version": "20.11.1",
+        "process.runtime.name": "nodejs",
+        "process.runtime.description": "Node.js",
+        "process.command": "/Users/sri/trace_generator/app/traceExporter.js",
+        "process.owner": "sri",
+        "host.name": "Sri-MacBook.local",
+        "host.arch": "arm64",
+        "host.id": "A62B053A-8D3A-57DE-A155-F4B3273F96D7"
+      }
+    },
+    "instrumentationScope": {
+      "name": "mock-tracer",
+      "version": "undefined",
+      "schemaUrl": "undefined"
+    },
+    "traceId": "b85be1ec81338f069c26974ac03dc3ba",
+    "parentid": "9fbe0252becc6a78",
+    "traceState": "undefined",
+    "name": "level-4-span-3",
+    "id": "0714f3d6b3cf2da1",
+    "kind": 0,
+    "timestamp": 1736397353021000,
+    "duration": 976212.25,
+    "attributes": {},
+    "status": {
+      "code": 0
+    },
+    "events": [],
+    "links": []
+  },
+  {
+    "resource": {
+      "attributes": {
+        "service.name": "mock-otel-app",
+        "telemetry.sdk.language": "nodejs",
+        "telemetry.sdk.name": "opentelemetry",
+        "telemetry.sdk.version": "1.30.0",
+        "service.version": "1.0.0",
+        "process.pid": 20288,
+        "process.executable.name": "node",
+        "process.executable.path": "/usr/local/bin/node",
+        "process.command_args": [
+          "/usr/local/bin/node",
+          "/Users/sri/trace_generator/app/traceExporter.js"
+        ],
+        "process.runtime.version": "20.11.1",
+        "process.runtime.name": "nodejs",
+        "process.runtime.description": "Node.js",
+        "process.command": "/Users/sri/trace_generator/app/traceExporter.js",
+        "process.owner": "sri",
+        "host.name": "Sri-MacBook.local",
+        "host.arch": "arm64",
+        "host.id": "A62B053A-8D3A-57DE-A155-F4B3273F96D7"
+      }
+    },
+    "instrumentationScope": {
+      "name": "mock-tracer",
+      "version": "undefined",
+      "schemaUrl": "undefined"
+    },
+    "traceId": "b85be1ec81338f069c26974ac03dc3ba",
+    "parentid": "8b36900f93b41dba",
+    "traceState": "undefined",
+    "name": "level-3-span-3",
+    "id": "0122a8e639384a19",
+    "kind": 0,
+    "timestamp": 1736397353803000,
+    "duration": 201365.625,
+    "attributes": {},
+    "status": {
+      "code": 0
+    },
+    "events": [],
+    "links": []
+  },
+  {
+    "resource": {
+      "attributes": {
+        "service.name": "mock-otel-app",
+        "telemetry.sdk.language": "nodejs",
+        "telemetry.sdk.name": "opentelemetry",
+        "telemetry.sdk.version": "1.30.0",
+        "service.version": "1.0.0",
+        "process.pid": 20288,
+        "process.executable.name": "node",
+        "process.executable.path": "/usr/local/bin/node",
+        "process.command_args": [
+          "/usr/local/bin/node",
+          "/Users/sri/trace_generator/app/traceExporter.js"
+        ],
+        "process.runtime.version": "20.11.1",
+        "process.runtime.name": "nodejs",
+        "process.runtime.description": "Node.js",
+        "process.command": "/Users/sri/trace_generator/app/traceExporter.js",
+        "process.owner": "sri",
+        "host.name": "Sri-MacBook.local",
+        "host.arch": "arm64",
+        "host.id": "A62B053A-8D3A-57DE-A155-F4B3273F96D7"
+      }
+    },
+    "instrumentationScope": {
+      "name": "mock-tracer",
+      "version": "undefined",
+      "schemaUrl": "undefined"
+    },
+    "traceId": "b85be1ec81338f069c26974ac03dc3ba",
+    "parentid": "a4a13f9f5a0fb262",
+    "traceState": "undefined",
+    "name": "level-4-span-2",
+    "id": "66c5295cefdc9cf1",
+    "kind": 0,
+    "timestamp": 1736397353139000,
+    "duration": 868530.375,
+    "attributes": {},
+    "status": {
+      "code": 0
+    },
+    "events": [],
+    "links": []
+  },
+  {
+    "resource": {
+      "attributes": {
+        "service.name": "mock-otel-app",
+        "telemetry.sdk.language": "nodejs",
+        "telemetry.sdk.name": "opentelemetry",
+        "telemetry.sdk.version": "1.30.0",
+        "service.version": "1.0.0",
+        "process.pid": 20288,
+        "process.executable.name": "node",
+        "process.executable.path": "/usr/local/bin/node",
+        "process.command_args": [
+          "/usr/local/bin/node",
+          "/Users/sri/trace_generator/app/traceExporter.js"
+        ],
+        "process.runtime.version": "20.11.1",
+        "process.runtime.name": "nodejs",
+        "process.runtime.description": "Node.js",
+        "process.command": "/Users/sri/trace_generator/app/traceExporter.js",
+        "process.owner": "sri",
+        "host.name": "Sri-MacBook.local",
+        "host.arch": "arm64",
+        "host.id": "A62B053A-8D3A-57DE-A155-F4B3273F96D7"
+      }
+    },
+    "instrumentationScope": {
+      "name": "mock-tracer",
+      "version": "undefined",
+      "schemaUrl": "undefined"
+    },
+    "traceId": "b85be1ec81338f069c26974ac03dc3ba",
+    "parentid": "8b36900f93b41dba",
+    "traceState": "undefined",
+    "name": "level-3-span-2",
+    "id": "2b758c82468c2d7c",
+    "kind": 0,
+    "timestamp": 1736397353803000,
+    "duration": 205724.125,
+    "attributes": {},
+    "status": {
+      "code": 0
+    },
+    "events": [],
+    "links": []
+  },
+  {
+    "resource": {
+      "attributes": {
+        "service.name": "mock-otel-app",
+        "telemetry.sdk.language": "nodejs",
+        "telemetry.sdk.name": "opentelemetry",
+        "telemetry.sdk.version": "1.30.0",
+        "service.version": "1.0.0",
+        "process.pid": 20288,
+        "process.executable.name": "node",
+        "process.executable.path": "/usr/local/bin/node",
+        "process.command_args": [
+          "/usr/local/bin/node",
+          "/Users/sri/trace_generator/app/traceExporter.js"
+        ],
+        "process.runtime.version": "20.11.1",
+        "process.runtime.name": "nodejs",
+        "process.runtime.description": "Node.js",
+        "process.command": "/Users/sri/trace_generator/app/traceExporter.js",
+        "process.owner": "sri",
+        "host.name": "Sri-MacBook.local",
+        "host.arch": "arm64",
+        "host.id": "A62B053A-8D3A-57DE-A155-F4B3273F96D7"
+      }
+    },
+    "instrumentationScope": {
+      "name": "mock-tracer",
+      "version": "undefined",
+      "schemaUrl": "undefined"
+    },
+    "traceId": "b85be1ec81338f069c26974ac03dc3ba",
+    "parentid": "2b758c82468c2d7c",
+    "traceState": "undefined",
+    "name": "level-4-span-3",
+    "id": "07da20ebdc37a0f5",
+    "kind": 0,
+    "timestamp": 1736397354009000,
+    "duration": 25401.916,
+    "attributes": {},
+    "status": {
+      "code": 0
+    },
+    "events": [],
+    "links": []
+  },
+  {
+    "resource": {
+      "attributes": {
+        "service.name": "mock-otel-app",
+        "telemetry.sdk.language": "nodejs",
+        "telemetry.sdk.name": "opentelemetry",
+        "telemetry.sdk.version": "1.30.0",
+        "service.version": "1.0.0",
+        "process.pid": 20288,
+        "process.executable.name": "node",
+        "process.executable.path": "/usr/local/bin/node",
+        "process.command_args": [
+          "/usr/local/bin/node",
+          "/Users/sri/trace_generator/app/traceExporter.js"
+        ],
+        "process.runtime.version": "20.11.1",
+        "process.runtime.name": "nodejs",
+        "process.runtime.description": "Node.js",
+        "process.command": "/Users/sri/trace_generator/app/traceExporter.js",
+        "process.owner": "sri",
+        "host.name": "Sri-MacBook.local",
+        "host.arch": "arm64",
+        "host.id": "A62B053A-8D3A-57DE-A155-F4B3273F96D7"
+      }
+    },
+    "instrumentationScope": {
+      "name": "mock-tracer",
+      "version": "undefined",
+      "schemaUrl": "undefined"
+    },
+    "traceId": "b85be1ec81338f069c26974ac03dc3ba",
+    "parentid": "7caaafe8ea266e0e",
+    "traceState": "undefined",
+    "name": "level-4-span-1",
+    "id": "e866b144aa9f8176",
+    "kind": 0,
+    "timestamp": 1736397353079000,
+    "duration": 960765.916,
+    "attributes": {},
+    "status": {
+      "code": 0
+    },
+    "events": [],
+    "links": []
+  },
+  {
+    "resource": {
+      "attributes": {
+        "service.name": "mock-otel-app",
+        "telemetry.sdk.language": "nodejs",
+        "telemetry.sdk.name": "opentelemetry",
+        "telemetry.sdk.version": "1.30.0",
+        "service.version": "1.0.0",
+        "process.pid": 20288,
+        "process.executable.name": "node",
+        "process.executable.path": "/usr/local/bin/node",
+        "process.command_args": [
+          "/usr/local/bin/node",
+          "/Users/sri/trace_generator/app/traceExporter.js"
+        ],
+        "process.runtime.version": "20.11.1",
+        "process.runtime.name": "nodejs",
+        "process.runtime.description": "Node.js",
+        "process.command": "/Users/sri/trace_generator/app/traceExporter.js",
+        "process.owner": "sri",
+        "host.name": "Sri-MacBook.local",
+        "host.arch": "arm64",
+        "host.id": "A62B053A-8D3A-57DE-A155-F4B3273F96D7"
+      }
+    },
+    "instrumentationScope": {
+      "name": "mock-tracer",
+      "version": "undefined",
+      "schemaUrl": "undefined"
+    },
+    "traceId": "b85be1ec81338f069c26974ac03dc3ba",
+    "parentid": "a4a13f9f5a0fb262",
+    "traceState": "undefined",
+    "name": "level-4-span-1",
+    "id": "4b000ee4396649b1",
+    "kind": 0,
+    "timestamp": 1736397353139000,
+    "duration": 945167.375,
+    "attributes": {},
+    "status": {
+      "code": 0
+    },
+    "events": [],
+    "links": []
+  },
+  {
+    "resource": {
+      "attributes": {
+        "service.name": "mock-otel-app",
+        "telemetry.sdk.language": "nodejs",
+        "telemetry.sdk.name": "opentelemetry",
+        "telemetry.sdk.version": "1.30.0",
+        "service.version": "1.0.0",
+        "process.pid": 20288,
+        "process.executable.name": "node",
+        "process.executable.path": "/usr/local/bin/node",
+        "process.command_args": [
+          "/usr/local/bin/node",
+          "/Users/sri/trace_generator/app/traceExporter.js"
+        ],
+        "process.runtime.version": "20.11.1",
+        "process.runtime.name": "nodejs",
+        "process.runtime.description": "Node.js",
+        "process.command": "/Users/sri/trace_generator/app/traceExporter.js",
+        "process.owner": "sri",
+        "host.name": "Sri-MacBook.local",
+        "host.arch": "arm64",
+        "host.id": "A62B053A-8D3A-57DE-A155-F4B3273F96D7"
+      }
+    },
+    "instrumentationScope": {
+      "name": "mock-tracer",
+      "version": "undefined",
+      "schemaUrl": "undefined"
+    },
+    "traceId": "b85be1ec81338f069c26974ac03dc3ba",
+    "parentid": "0e6f0f6022907822",
+    "traceState": "undefined",
+    "name": "level-4-span-2",
+    "id": "66fd8f76d469db19",
+    "kind": 0,
+    "timestamp": 1736397353917000,
+    "duration": 240707.958,
+    "attributes": {},
+    "status": {
+      "code": 0
+    },
+    "events": [],
+    "links": []
+  },
+  {
+    "resource": {
+      "attributes": {
+        "service.name": "mock-otel-app",
+        "telemetry.sdk.language": "nodejs",
+        "telemetry.sdk.name": "opentelemetry",
+        "telemetry.sdk.version": "1.30.0",
+        "service.version": "1.0.0",
+        "process.pid": 20288,
+        "process.executable.name": "node",
+        "process.executable.path": "/usr/local/bin/node",
+        "process.command_args": [
+          "/usr/local/bin/node",
+          "/Users/sri/trace_generator/app/traceExporter.js"
+        ],
+        "process.runtime.version": "20.11.1",
+        "process.runtime.name": "nodejs",
+        "process.runtime.description": "Node.js",
+        "process.command": "/Users/sri/trace_generator/app/traceExporter.js",
+        "process.owner": "sri",
+        "host.name": "Sri-MacBook.local",
+        "host.arch": "arm64",
+        "host.id": "A62B053A-8D3A-57DE-A155-F4B3273F96D7"
+      }
+    },
+    "instrumentationScope": {
+      "name": "mock-tracer",
+      "version": "undefined",
+      "schemaUrl": "undefined"
+    },
+    "traceId": "b85be1ec81338f069c26974ac03dc3ba",
+    "parentid": "0e6f0f6022907822",
+    "traceState": "undefined",
+    "name": "level-4-span-1",
+    "id": "3de30314e3b0aeee",
+    "kind": 0,
+    "timestamp": 1736397353917000,
+    "duration": 242785.291,
+    "attributes": {},
+    "status": {
+      "code": 0
+    },
+    "events": [],
+    "links": []
+  },
+  {
+    "resource": {
+      "attributes": {
+        "service.name": "mock-otel-app",
+        "telemetry.sdk.language": "nodejs",
+        "telemetry.sdk.name": "opentelemetry",
+        "telemetry.sdk.version": "1.30.0",
+        "service.version": "1.0.0",
+        "process.pid": 20288,
+        "process.executable.name": "node",
+        "process.executable.path": "/usr/local/bin/node",
+        "process.command_args": [
+          "/usr/local/bin/node",
+          "/Users/sri/trace_generator/app/traceExporter.js"
+        ],
+        "process.runtime.version": "20.11.1",
+        "process.runtime.name": "nodejs",
+        "process.runtime.description": "Node.js",
+        "process.command": "/Users/sri/trace_generator/app/traceExporter.js",
+        "process.owner": "sri",
+        "host.name": "Sri-MacBook.local",
+        "host.arch": "arm64",
+        "host.id": "A62B053A-8D3A-57DE-A155-F4B3273F96D7"
+      }
+    },
+    "instrumentationScope": {
+      "name": "mock-tracer",
+      "version": "undefined",
+      "schemaUrl": "undefined"
+    },
+    "traceId": "b85be1ec81338f069c26974ac03dc3ba",
+    "parentid": "9540aa1d1798d837",
+    "traceState": "undefined",
+    "name": "level-4-span-1",
+    "id": "0d4252bc89176f66",
+    "kind": 0,
+    "timestamp": 1736397353753000,
+    "duration": 413472,
+    "attributes": {},
+    "status": {
+      "code": 0
+    },
+    "events": [],
+    "links": []
+  },
+  {
+    "resource": {
+      "attributes": {
+        "service.name": "mock-otel-app",
+        "telemetry.sdk.language": "nodejs",
+        "telemetry.sdk.name": "opentelemetry",
+        "telemetry.sdk.version": "1.30.0",
+        "service.version": "1.0.0",
+        "process.pid": 20288,
+        "process.executable.name": "node",
+        "process.executable.path": "/usr/local/bin/node",
+        "process.command_args": [
+          "/usr/local/bin/node",
+          "/Users/sri/trace_generator/app/traceExporter.js"
+        ],
+        "process.runtime.version": "20.11.1",
+        "process.runtime.name": "nodejs",
+        "process.runtime.description": "Node.js",
+        "process.command": "/Users/sri/trace_generator/app/traceExporter.js",
+        "process.owner": "sri",
+        "host.name": "Sri-MacBook.local",
+        "host.arch": "arm64",
+        "host.id": "A62B053A-8D3A-57DE-A155-F4B3273F96D7"
+      }
+    },
+    "instrumentationScope": {
+      "name": "mock-tracer",
+      "version": "undefined",
+      "schemaUrl": "undefined"
+    },
+    "traceId": "b85be1ec81338f069c26974ac03dc3ba",
+    "parentid": "6961e0e59b99f263",
+    "traceState": "undefined",
+    "name": "level-4-span-1",
+    "id": "f659438e3f6eab99",
+    "kind": 0,
+    "timestamp": 1736397353307000,
+    "duration": 868067.75,
+    "attributes": {},
+    "status": {
+      "code": 0
+    },
+    "events": [],
+    "links": []
+  },
+  {
+    "resource": {
+      "attributes": {
+        "service.name": "mock-otel-app",
+        "telemetry.sdk.language": "nodejs",
+        "telemetry.sdk.name": "opentelemetry",
+        "telemetry.sdk.version": "1.30.0",
+        "service.version": "1.0.0",
+        "process.pid": 20288,
+        "process.executable.name": "node",
+        "process.executable.path": "/usr/local/bin/node",
+        "process.command_args": [
+          "/usr/local/bin/node",
+          "/Users/sri/trace_generator/app/traceExporter.js"
+        ],
+        "process.runtime.version": "20.11.1",
+        "process.runtime.name": "nodejs",
+        "process.runtime.description": "Node.js",
+        "process.command": "/Users/sri/trace_generator/app/traceExporter.js",
+        "process.owner": "sri",
+        "host.name": "Sri-MacBook.local",
+        "host.arch": "arm64",
+        "host.id": "A62B053A-8D3A-57DE-A155-F4B3273F96D7"
+      }
+    },
+    "instrumentationScope": {
+      "name": "mock-tracer",
+      "version": "undefined",
+      "schemaUrl": "undefined"
+    },
+    "traceId": "b85be1ec81338f069c26974ac03dc3ba",
+    "parentid": "9540aa1d1798d837",
+    "traceState": "undefined",
+    "name": "level-4-span-2",
+    "id": "88db3cd09f5ea0fc",
+    "kind": 0,
+    "timestamp": 1736397353753000,
+    "duration": 434126.792,
+    "attributes": {},
+    "status": {
+      "code": 0
+    },
+    "events": [],
+    "links": []
+  },
+  {
+    "resource": {
+      "attributes": {
+        "service.name": "mock-otel-app",
+        "telemetry.sdk.language": "nodejs",
+        "telemetry.sdk.name": "opentelemetry",
+        "telemetry.sdk.version": "1.30.0",
+        "service.version": "1.0.0",
+        "process.pid": 20288,
+        "process.executable.name": "node",
+        "process.executable.path": "/usr/local/bin/node",
+        "process.command_args": [
+          "/usr/local/bin/node",
+          "/Users/sri/trace_generator/app/traceExporter.js"
+        ],
+        "process.runtime.version": "20.11.1",
+        "process.runtime.name": "nodejs",
+        "process.runtime.description": "Node.js",
+        "process.command": "/Users/sri/trace_generator/app/traceExporter.js",
+        "process.owner": "sri",
+        "host.name": "Sri-MacBook.local",
+        "host.arch": "arm64",
+        "host.id": "A62B053A-8D3A-57DE-A155-F4B3273F96D7"
+      }
+    },
+    "instrumentationScope": {
+      "name": "mock-tracer",
+      "version": "undefined",
+      "schemaUrl": "undefined"
+    },
+    "traceId": "b85be1ec81338f069c26974ac03dc3ba",
+    "parentid": "0a8e38c2e99932c2",
+    "traceState": "undefined",
+    "name": "level-3-span-1",
+    "id": "0e0bbb431f85fc3f",
+    "kind": 0,
+    "timestamp": 1736397353444000,
+    "duration": 744674.334,
+    "attributes": {},
+    "status": {
+      "code": 0
+    },
+    "events": [],
+    "links": []
+  },
+  {
+    "resource": {
+      "attributes": {
+        "service.name": "mock-otel-app",
+        "telemetry.sdk.language": "nodejs",
+        "telemetry.sdk.name": "opentelemetry",
+        "telemetry.sdk.version": "1.30.0",
+        "service.version": "1.0.0",
+        "process.pid": 20288,
+        "process.executable.name": "node",
+        "process.executable.path": "/usr/local/bin/node",
+        "process.command_args": [
+          "/usr/local/bin/node",
+          "/Users/sri/trace_generator/app/traceExporter.js"
+        ],
+        "process.runtime.version": "20.11.1",
+        "process.runtime.name": "nodejs",
+        "process.runtime.description": "Node.js",
+        "process.command": "/Users/sri/trace_generator/app/traceExporter.js",
+        "process.owner": "sri",
+        "host.name": "Sri-MacBook.local",
+        "host.arch": "arm64",
+        "host.id": "A62B053A-8D3A-57DE-A155-F4B3273F96D7"
+      }
+    },
+    "instrumentationScope": {
+      "name": "mock-tracer",
+      "version": "undefined",
+      "schemaUrl": "undefined"
+    },
+    "traceId": "b85be1ec81338f069c26974ac03dc3ba",
+    "parentid": "6467718a7c0aad4d",
+    "traceState": "undefined",
+    "name": "level-4-span-2",
+    "id": "502b30a4a9494fc0",
+    "kind": 0,
+    "timestamp": 1736397353694000,
+    "duration": 504629.667,
+    "attributes": {},
+    "status": {
+      "code": 0
+    },
+    "events": [],
+    "links": []
+  },
+  {
+    "resource": {
+      "attributes": {
+        "service.name": "mock-otel-app",
+        "telemetry.sdk.language": "nodejs",
+        "telemetry.sdk.name": "opentelemetry",
+        "telemetry.sdk.version": "1.30.0",
+        "service.version": "1.0.0",
+        "process.pid": 20288,
+        "process.executable.name": "node",
+        "process.executable.path": "/usr/local/bin/node",
+        "process.command_args": [
+          "/usr/local/bin/node",
+          "/Users/sri/trace_generator/app/traceExporter.js"
+        ],
+        "process.runtime.version": "20.11.1",
+        "process.runtime.name": "nodejs",
+        "process.runtime.description": "Node.js",
+        "process.command": "/Users/sri/trace_generator/app/traceExporter.js",
+        "process.owner": "sri",
+        "host.name": "Sri-MacBook.local",
+        "host.arch": "arm64",
+        "host.id": "A62B053A-8D3A-57DE-A155-F4B3273F96D7"
+      }
+    },
+    "instrumentationScope": {
+      "name": "mock-tracer",
+      "version": "undefined",
+      "schemaUrl": "undefined"
+    },
+    "traceId": "b85be1ec81338f069c26974ac03dc3ba",
+    "parentid": "f9a759f802824ffd",
+    "traceState": "undefined",
+    "name": "level-4-span-1",
+    "id": "323b09c6aa13dbba",
+    "kind": 0,
+    "timestamp": 1736397353549000,
+    "duration": 685137.667,
+    "attributes": {},
+    "status": {
+      "code": 0
+    },
+    "events": [],
+    "links": []
+  },
+  {
+    "resource": {
+      "attributes": {
+        "service.name": "mock-otel-app",
+        "telemetry.sdk.language": "nodejs",
+        "telemetry.sdk.name": "opentelemetry",
+        "telemetry.sdk.version": "1.30.0",
+        "service.version": "1.0.0",
+        "process.pid": 20288,
+        "process.executable.name": "node",
+        "process.executable.path": "/usr/local/bin/node",
+        "process.command_args": [
+          "/usr/local/bin/node",
+          "/Users/sri/trace_generator/app/traceExporter.js"
+        ],
+        "process.runtime.version": "20.11.1",
+        "process.runtime.name": "nodejs",
+        "process.runtime.description": "Node.js",
+        "process.command": "/Users/sri/trace_generator/app/traceExporter.js",
+        "process.owner": "sri",
+        "host.name": "Sri-MacBook.local",
+        "host.arch": "arm64",
+        "host.id": "A62B053A-8D3A-57DE-A155-F4B3273F96D7"
+      }
+    },
+    "instrumentationScope": {
+      "name": "mock-tracer",
+      "version": "undefined",
+      "schemaUrl": "undefined"
+    },
+    "traceId": "b85be1ec81338f069c26974ac03dc3ba",
+    "parentid": "f2ae93d9e9dc6a70",
+    "traceState": "undefined",
+    "name": "level-3-span-1",
+    "id": "62446ff617e410e1",
+    "kind": 0,
+    "timestamp": 1736397353322000,
+    "duration": 926363.375,
+    "attributes": {},
+    "status": {
+      "code": 0
+    },
+    "events": [],
+    "links": []
+  },
+  {
+    "resource": {
+      "attributes": {
+        "service.name": "mock-otel-app",
+        "telemetry.sdk.language": "nodejs",
+        "telemetry.sdk.name": "opentelemetry",
+        "telemetry.sdk.version": "1.30.0",
+        "service.version": "1.0.0",
+        "process.pid": 20288,
+        "process.executable.name": "node",
+        "process.executable.path": "/usr/local/bin/node",
+        "process.command_args": [
+          "/usr/local/bin/node",
+          "/Users/sri/trace_generator/app/traceExporter.js"
+        ],
+        "process.runtime.version": "20.11.1",
+        "process.runtime.name": "nodejs",
+        "process.runtime.description": "Node.js",
+        "process.command": "/Users/sri/trace_generator/app/traceExporter.js",
+        "process.owner": "sri",
+        "host.name": "Sri-MacBook.local",
+        "host.arch": "arm64",
+        "host.id": "A62B053A-8D3A-57DE-A155-F4B3273F96D7"
+      }
+    },
+    "instrumentationScope": {
+      "name": "mock-tracer",
+      "version": "undefined",
+      "schemaUrl": "undefined"
+    },
+    "traceId": "b85be1ec81338f069c26974ac03dc3ba",
+    "parentid": "62446ff617e410e1",
+    "traceState": "undefined",
+    "name": "level-4-span-3",
+    "id": "f072a78462de0eaa",
+    "kind": 0,
+    "timestamp": 1736397354248000,
+    "duration": 8478.459,
+    "attributes": {},
+    "status": {
+      "code": 0
+    },
+    "events": [],
+    "links": []
+  },
+  {
+    "resource": {
+      "attributes": {
+        "service.name": "mock-otel-app",
+        "telemetry.sdk.language": "nodejs",
+        "telemetry.sdk.name": "opentelemetry",
+        "telemetry.sdk.version": "1.30.0",
+        "service.version": "1.0.0",
+        "process.pid": 20288,
+        "process.executable.name": "node",
+        "process.executable.path": "/usr/local/bin/node",
+        "process.command_args": [
+          "/usr/local/bin/node",
+          "/Users/sri/trace_generator/app/traceExporter.js"
+        ],
+        "process.runtime.version": "20.11.1",
+        "process.runtime.name": "nodejs",
+        "process.runtime.description": "Node.js",
+        "process.command": "/Users/sri/trace_generator/app/traceExporter.js",
+        "process.owner": "sri",
+        "host.name": "Sri-MacBook.local",
+        "host.arch": "arm64",
+        "host.id": "A62B053A-8D3A-57DE-A155-F4B3273F96D7"
+      }
+    },
+    "instrumentationScope": {
+      "name": "mock-tracer",
+      "version": "undefined",
+      "schemaUrl": "undefined"
+    },
+    "traceId": "b85be1ec81338f069c26974ac03dc3ba",
+    "parentid": "0122a8e639384a19",
+    "traceState": "undefined",
+    "name": "level-4-span-3",
+    "id": "1766e75825b0f2de",
+    "kind": 0,
+    "timestamp": 1736397354005000,
+    "duration": 292043.625,
+    "attributes": {},
+    "status": {
+      "code": 0
+    },
+    "events": [],
+    "links": []
+  },
+  {
+    "resource": {
+      "attributes": {
+        "service.name": "mock-otel-app",
+        "telemetry.sdk.language": "nodejs",
+        "telemetry.sdk.name": "opentelemetry",
+        "telemetry.sdk.version": "1.30.0",
+        "service.version": "1.0.0",
+        "process.pid": 20288,
+        "process.executable.name": "node",
+        "process.executable.path": "/usr/local/bin/node",
+        "process.command_args": [
+          "/usr/local/bin/node",
+          "/Users/sri/trace_generator/app/traceExporter.js"
+        ],
+        "process.runtime.version": "20.11.1",
+        "process.runtime.name": "nodejs",
+        "process.runtime.description": "Node.js",
+        "process.command": "/Users/sri/trace_generator/app/traceExporter.js",
+        "process.owner": "sri",
+        "host.name": "Sri-MacBook.local",
+        "host.arch": "arm64",
+        "host.id": "A62B053A-8D3A-57DE-A155-F4B3273F96D7"
+      }
+    },
+    "instrumentationScope": {
+      "name": "mock-tracer",
+      "version": "undefined",
+      "schemaUrl": "undefined"
+    },
+    "traceId": "b85be1ec81338f069c26974ac03dc3ba",
+    "parentid": "2509c6b7491aa780",
+    "traceState": "undefined",
+    "name": "level-3-span-2",
+    "id": "1199d3505dd95c68",
+    "kind": 0,
+    "timestamp": 1736397353909000,
+    "duration": 398837.666,
+    "attributes": {},
+    "status": {
+      "code": 0
+    },
+    "events": [],
+    "links": []
+  },
+  {
+    "resource": {
+      "attributes": {
+        "service.name": "mock-otel-app",
+        "telemetry.sdk.language": "nodejs",
+        "telemetry.sdk.name": "opentelemetry",
+        "telemetry.sdk.version": "1.30.0",
+        "service.version": "1.0.0",
+        "process.pid": 20288,
+        "process.executable.name": "node",
+        "process.executable.path": "/usr/local/bin/node",
+        "process.command_args": [
+          "/usr/local/bin/node",
+          "/Users/sri/trace_generator/app/traceExporter.js"
+        ],
+        "process.runtime.version": "20.11.1",
+        "process.runtime.name": "nodejs",
+        "process.runtime.description": "Node.js",
+        "process.command": "/Users/sri/trace_generator/app/traceExporter.js",
+        "process.owner": "sri",
+        "host.name": "Sri-MacBook.local",
+        "host.arch": "arm64",
+        "host.id": "A62B053A-8D3A-57DE-A155-F4B3273F96D7"
+      }
+    },
+    "instrumentationScope": {
+      "name": "mock-tracer",
+      "version": "undefined",
+      "schemaUrl": "undefined"
+    },
+    "traceId": "b85be1ec81338f069c26974ac03dc3ba",
+    "parentid": "1199d3505dd95c68",
+    "traceState": "undefined",
+    "name": "level-4-span-3",
+    "id": "ba7fa459f769c3a8",
+    "kind": 0,
+    "timestamp": 1736397354308000,
+    "duration": 2825.458,
+    "attributes": {},
+    "status": {
+      "code": 0
+    },
+    "events": [],
+    "links": []
+  },
+  {
+    "resource": {
+      "attributes": {
+        "service.name": "mock-otel-app",
+        "telemetry.sdk.language": "nodejs",
+        "telemetry.sdk.name": "opentelemetry",
+        "telemetry.sdk.version": "1.30.0",
+        "service.version": "1.0.0",
+        "process.pid": 20288,
+        "process.executable.name": "node",
+        "process.executable.path": "/usr/local/bin/node",
+        "process.command_args": [
+          "/usr/local/bin/node",
+          "/Users/sri/trace_generator/app/traceExporter.js"
+        ],
+        "process.runtime.version": "20.11.1",
+        "process.runtime.name": "nodejs",
+        "process.runtime.description": "Node.js",
+        "process.command": "/Users/sri/trace_generator/app/traceExporter.js",
+        "process.owner": "sri",
+        "host.name": "Sri-MacBook.local",
+        "host.arch": "arm64",
+        "host.id": "A62B053A-8D3A-57DE-A155-F4B3273F96D7"
+      }
+    },
+    "instrumentationScope": {
+      "name": "mock-tracer",
+      "version": "undefined",
+      "schemaUrl": "undefined"
+    },
+    "traceId": "b85be1ec81338f069c26974ac03dc3ba",
+    "parentid": "a75845c919757903",
+    "traceState": "undefined",
+    "name": "level-4-span-3",
+    "id": "daf5929e68e17051",
+    "kind": 0,
+    "timestamp": 1736397353827000,
+    "duration": 496569.041,
+    "attributes": {},
+    "status": {
+      "code": 0
+    },
+    "events": [],
+    "links": []
+  },
+  {
+    "resource": {
+      "attributes": {
+        "service.name": "mock-otel-app",
+        "telemetry.sdk.language": "nodejs",
+        "telemetry.sdk.name": "opentelemetry",
+        "telemetry.sdk.version": "1.30.0",
+        "service.version": "1.0.0",
+        "process.pid": 20288,
+        "process.executable.name": "node",
+        "process.executable.path": "/usr/local/bin/node",
+        "process.command_args": [
+          "/usr/local/bin/node",
+          "/Users/sri/trace_generator/app/traceExporter.js"
+        ],
+        "process.runtime.version": "20.11.1",
+        "process.runtime.name": "nodejs",
+        "process.runtime.description": "Node.js",
+        "process.command": "/Users/sri/trace_generator/app/traceExporter.js",
+        "process.owner": "sri",
+        "host.name": "Sri-MacBook.local",
+        "host.arch": "arm64",
+        "host.id": "A62B053A-8D3A-57DE-A155-F4B3273F96D7"
+      }
+    },
+    "instrumentationScope": {
+      "name": "mock-tracer",
+      "version": "undefined",
+      "schemaUrl": "undefined"
+    },
+    "traceId": "b85be1ec81338f069c26974ac03dc3ba",
+    "parentid": "c1b22d02d89616af",
+    "traceState": "undefined",
+    "name": "level-4-span-2",
+    "id": "90a28689d2e50453",
+    "kind": 0,
+    "timestamp": 1736397353389000,
+    "duration": 956235.333,
+    "attributes": {},
+    "status": {
+      "code": 0
+    },
+    "events": [],
+    "links": []
+  },
+  {
+    "resource": {
+      "attributes": {
+        "service.name": "mock-otel-app",
+        "telemetry.sdk.language": "nodejs",
+        "telemetry.sdk.name": "opentelemetry",
+        "telemetry.sdk.version": "1.30.0",
+        "service.version": "1.0.0",
+        "process.pid": 20288,
+        "process.executable.name": "node",
+        "process.executable.path": "/usr/local/bin/node",
+        "process.command_args": [
+          "/usr/local/bin/node",
+          "/Users/sri/trace_generator/app/traceExporter.js"
+        ],
+        "process.runtime.version": "20.11.1",
+        "process.runtime.name": "nodejs",
+        "process.runtime.description": "Node.js",
+        "process.command": "/Users/sri/trace_generator/app/traceExporter.js",
+        "process.owner": "sri",
+        "host.name": "Sri-MacBook.local",
+        "host.arch": "arm64",
+        "host.id": "A62B053A-8D3A-57DE-A155-F4B3273F96D7"
+      }
+    },
+    "instrumentationScope": {
+      "name": "mock-tracer",
+      "version": "undefined",
+      "schemaUrl": "undefined"
+    },
+    "traceId": "b85be1ec81338f069c26974ac03dc3ba",
+    "parentid": "0122a8e639384a19",
+    "traceState": "undefined",
+    "name": "level-4-span-2",
+    "id": "efdc6f83e6a7b972",
+    "kind": 0,
+    "timestamp": 1736397354005000,
+    "duration": 367536.875,
+    "attributes": {},
+    "status": {
+      "code": 0
+    },
+    "events": [],
+    "links": []
+  },
+  {
+    "resource": {
+      "attributes": {
+        "service.name": "mock-otel-app",
+        "telemetry.sdk.language": "nodejs",
+        "telemetry.sdk.name": "opentelemetry",
+        "telemetry.sdk.version": "1.30.0",
+        "service.version": "1.0.0",
+        "process.pid": 20288,
+        "process.executable.name": "node",
+        "process.executable.path": "/usr/local/bin/node",
+        "process.command_args": [
+          "/usr/local/bin/node",
+          "/Users/sri/trace_generator/app/traceExporter.js"
+        ],
+        "process.runtime.version": "20.11.1",
+        "process.runtime.name": "nodejs",
+        "process.runtime.description": "Node.js",
+        "process.command": "/Users/sri/trace_generator/app/traceExporter.js",
+        "process.owner": "sri",
+        "host.name": "Sri-MacBook.local",
+        "host.arch": "arm64",
+        "host.id": "A62B053A-8D3A-57DE-A155-F4B3273F96D7"
+      }
+    },
+    "instrumentationScope": {
+      "name": "mock-tracer",
+      "version": "undefined",
+      "schemaUrl": "undefined"
+    },
+    "traceId": "b85be1ec81338f069c26974ac03dc3ba",
+    "parentid": "2509c6b7491aa780",
+    "traceState": "undefined",
+    "name": "level-3-span-1",
+    "id": "f3a1710dc1f2f54b",
+    "kind": 0,
+    "timestamp": 1736397353909000,
+    "duration": 468775.084,
+    "attributes": {},
+    "status": {
+      "code": 0
+    },
+    "events": [],
+    "links": []
+  },
+  {
+    "resource": {
+      "attributes": {
+        "service.name": "mock-otel-app",
+        "telemetry.sdk.language": "nodejs",
+        "telemetry.sdk.name": "opentelemetry",
+        "telemetry.sdk.version": "1.30.0",
+        "service.version": "1.0.0",
+        "process.pid": 20288,
+        "process.executable.name": "node",
+        "process.executable.path": "/usr/local/bin/node",
+        "process.command_args": [
+          "/usr/local/bin/node",
+          "/Users/sri/trace_generator/app/traceExporter.js"
+        ],
+        "process.runtime.version": "20.11.1",
+        "process.runtime.name": "nodejs",
+        "process.runtime.description": "Node.js",
+        "process.command": "/Users/sri/trace_generator/app/traceExporter.js",
+        "process.owner": "sri",
+        "host.name": "Sri-MacBook.local",
+        "host.arch": "arm64",
+        "host.id": "A62B053A-8D3A-57DE-A155-F4B3273F96D7"
+      }
+    },
+    "instrumentationScope": {
+      "name": "mock-tracer",
+      "version": "undefined",
+      "schemaUrl": "undefined"
+    },
+    "traceId": "b85be1ec81338f069c26974ac03dc3ba",
+    "parentid": "1199d3505dd95c68",
+    "traceState": "undefined",
+    "name": "level-4-span-1",
+    "id": "cb14ad7786b5269f",
+    "kind": 0,
+    "timestamp": 1736397354308000,
+    "duration": 88499.541,
+    "attributes": {},
+    "status": {
+      "code": 0
+    },
+    "events": [],
+    "links": []
+  },
+  {
+    "resource": {
+      "attributes": {
+        "service.name": "mock-otel-app",
+        "telemetry.sdk.language": "nodejs",
+        "telemetry.sdk.name": "opentelemetry",
+        "telemetry.sdk.version": "1.30.0",
+        "service.version": "1.0.0",
+        "process.pid": 20288,
+        "process.executable.name": "node",
+        "process.executable.path": "/usr/local/bin/node",
+        "process.command_args": [
+          "/usr/local/bin/node",
+          "/Users/sri/trace_generator/app/traceExporter.js"
+        ],
+        "process.runtime.version": "20.11.1",
+        "process.runtime.name": "nodejs",
+        "process.runtime.description": "Node.js",
+        "process.command": "/Users/sri/trace_generator/app/traceExporter.js",
+        "process.owner": "sri",
+        "host.name": "Sri-MacBook.local",
+        "host.arch": "arm64",
+        "host.id": "A62B053A-8D3A-57DE-A155-F4B3273F96D7"
+      }
+    },
+    "instrumentationScope": {
+      "name": "mock-tracer",
+      "version": "undefined",
+      "schemaUrl": "undefined"
+    },
+    "traceId": "b85be1ec81338f069c26974ac03dc3ba",
+    "parentid": "4c72f28ca4a55fb7",
+    "traceState": "undefined",
+    "name": "level-4-span-1",
+    "id": "c6bb18eccf5cf9f4",
+    "kind": 0,
+    "timestamp": 1736397353915000,
+    "duration": 486615.667,
+    "attributes": {},
+    "status": {
+      "code": 0
+    },
+    "events": [],
+    "links": []
+  },
+  {
+    "resource": {
+      "attributes": {
+        "service.name": "mock-otel-app",
+        "telemetry.sdk.language": "nodejs",
+        "telemetry.sdk.name": "opentelemetry",
+        "telemetry.sdk.version": "1.30.0",
+        "service.version": "1.0.0",
+        "process.pid": 20288,
+        "process.executable.name": "node",
+        "process.executable.path": "/usr/local/bin/node",
+        "process.command_args": [
+          "/usr/local/bin/node",
+          "/Users/sri/trace_generator/app/traceExporter.js"
+        ],
+        "process.runtime.version": "20.11.1",
+        "process.runtime.name": "nodejs",
+        "process.runtime.description": "Node.js",
+        "process.command": "/Users/sri/trace_generator/app/traceExporter.js",
+        "process.owner": "sri",
+        "host.name": "Sri-MacBook.local",
+        "host.arch": "arm64",
+        "host.id": "A62B053A-8D3A-57DE-A155-F4B3273F96D7"
+      }
+    },
+    "instrumentationScope": {
+      "name": "mock-tracer",
+      "version": "undefined",
+      "schemaUrl": "undefined"
+    },
+    "traceId": "b85be1ec81338f069c26974ac03dc3ba",
+    "parentid": "a75845c919757903",
+    "traceState": "undefined",
+    "name": "level-4-span-2",
+    "id": "8c70eda70f7a1f1e",
+    "kind": 0,
+    "timestamp": 1736397353827000,
+    "duration": 606285.125,
+    "attributes": {},
+    "status": {
+      "code": 0
+    },
+    "events": [],
+    "links": []
+  },
+  {
+    "resource": {
+      "attributes": {
+        "service.name": "mock-otel-app",
+        "telemetry.sdk.language": "nodejs",
+        "telemetry.sdk.name": "opentelemetry",
+        "telemetry.sdk.version": "1.30.0",
+        "service.version": "1.0.0",
+        "process.pid": 20288,
+        "process.executable.name": "node",
+        "process.executable.path": "/usr/local/bin/node",
+        "process.command_args": [
+          "/usr/local/bin/node",
+          "/Users/sri/trace_generator/app/traceExporter.js"
+        ],
+        "process.runtime.version": "20.11.1",
+        "process.runtime.name": "nodejs",
+        "process.runtime.description": "Node.js",
+        "process.command": "/Users/sri/trace_generator/app/traceExporter.js",
+        "process.owner": "sri",
+        "host.name": "Sri-MacBook.local",
+        "host.arch": "arm64",
+        "host.id": "A62B053A-8D3A-57DE-A155-F4B3273F96D7"
+      }
+    },
+    "instrumentationScope": {
+      "name": "mock-tracer",
+      "version": "undefined",
+      "schemaUrl": "undefined"
+    },
+    "traceId": "b85be1ec81338f069c26974ac03dc3ba",
+    "parentid": "0e6f0f6022907822",
+    "traceState": "undefined",
+    "name": "level-4-span-3",
+    "id": "0d0d3fc8e68a65ad",
+    "kind": 0,
+    "timestamp": 1736397353917000,
+    "duration": 521476.459,
+    "attributes": {},
+    "status": {
+      "code": 0
+    },
+    "events": [],
+    "links": []
+  },
+  {
+    "resource": {
+      "attributes": {
+        "service.name": "mock-otel-app",
+        "telemetry.sdk.language": "nodejs",
+        "telemetry.sdk.name": "opentelemetry",
+        "telemetry.sdk.version": "1.30.0",
+        "service.version": "1.0.0",
+        "process.pid": 20288,
+        "process.executable.name": "node",
+        "process.executable.path": "/usr/local/bin/node",
+        "process.command_args": [
+          "/usr/local/bin/node",
+          "/Users/sri/trace_generator/app/traceExporter.js"
+        ],
+        "process.runtime.version": "20.11.1",
+        "process.runtime.name": "nodejs",
+        "process.runtime.description": "Node.js",
+        "process.command": "/Users/sri/trace_generator/app/traceExporter.js",
+        "process.owner": "sri",
+        "host.name": "Sri-MacBook.local",
+        "host.arch": "arm64",
+        "host.id": "A62B053A-8D3A-57DE-A155-F4B3273F96D7"
+      }
+    },
+    "instrumentationScope": {
+      "name": "mock-tracer",
+      "version": "undefined",
+      "schemaUrl": "undefined"
+    },
+    "traceId": "b85be1ec81338f069c26974ac03dc3ba",
+    "parentid": "14e39769c5970cd0",
+    "traceState": "undefined",
+    "name": "level-4-span-3",
+    "id": "1994b68de283cd75",
+    "kind": 0,
+    "timestamp": 1736397353853000,
+    "duration": 592475.958,
+    "attributes": {},
+    "status": {
+      "code": 0
+    },
+    "events": [],
+    "links": []
+  },
+  {
+    "resource": {
+      "attributes": {
+        "service.name": "mock-otel-app",
+        "telemetry.sdk.language": "nodejs",
+        "telemetry.sdk.name": "opentelemetry",
+        "telemetry.sdk.version": "1.30.0",
+        "service.version": "1.0.0",
+        "process.pid": 20288,
+        "process.executable.name": "node",
+        "process.executable.path": "/usr/local/bin/node",
+        "process.command_args": [
+          "/usr/local/bin/node",
+          "/Users/sri/trace_generator/app/traceExporter.js"
+        ],
+        "process.runtime.version": "20.11.1",
+        "process.runtime.name": "nodejs",
+        "process.runtime.description": "Node.js",
+        "process.command": "/Users/sri/trace_generator/app/traceExporter.js",
+        "process.owner": "sri",
+        "host.name": "Sri-MacBook.local",
+        "host.arch": "arm64",
+        "host.id": "A62B053A-8D3A-57DE-A155-F4B3273F96D7"
+      }
+    },
+    "instrumentationScope": {
+      "name": "mock-tracer",
+      "version": "undefined",
+      "schemaUrl": "undefined"
+    },
+    "traceId": "b85be1ec81338f069c26974ac03dc3ba",
+    "parentid": "097bcfe483e920cc",
+    "traceState": "undefined",
+    "name": "level-4-span-3",
+    "id": "e14c6d7158d4cb07",
+    "kind": 0,
+    "timestamp": 1736397353565000,
+    "duration": 896132.834,
+    "attributes": {},
+    "status": {
+      "code": 0
+    },
+    "events": [],
+    "links": []
+  },
+  {
+    "resource": {
+      "attributes": {
+        "service.name": "mock-otel-app",
+        "telemetry.sdk.language": "nodejs",
+        "telemetry.sdk.name": "opentelemetry",
+        "telemetry.sdk.version": "1.30.0",
+        "service.version": "1.0.0",
+        "process.pid": 20288,
+        "process.executable.name": "node",
+        "process.executable.path": "/usr/local/bin/node",
+        "process.command_args": [
+          "/usr/local/bin/node",
+          "/Users/sri/trace_generator/app/traceExporter.js"
+        ],
+        "process.runtime.version": "20.11.1",
+        "process.runtime.name": "nodejs",
+        "process.runtime.description": "Node.js",
+        "process.command": "/Users/sri/trace_generator/app/traceExporter.js",
+        "process.owner": "sri",
+        "host.name": "Sri-MacBook.local",
+        "host.arch": "arm64",
+        "host.id": "A62B053A-8D3A-57DE-A155-F4B3273F96D7"
+      }
+    },
+    "instrumentationScope": {
+      "name": "mock-tracer",
+      "version": "undefined",
+      "schemaUrl": "undefined"
+    },
+    "traceId": "b85be1ec81338f069c26974ac03dc3ba",
+    "parentid": "2b758c82468c2d7c",
+    "traceState": "undefined",
+    "name": "level-4-span-1",
+    "id": "592d6c6ccd5223bd",
+    "kind": 0,
+    "timestamp": 1736397354009000,
+    "duration": 468466.416,
+    "attributes": {},
+    "status": {
+      "code": 0
+    },
+    "events": [],
+    "links": []
+  },
+  {
+    "resource": {
+      "attributes": {
+        "service.name": "mock-otel-app",
+        "telemetry.sdk.language": "nodejs",
+        "telemetry.sdk.name": "opentelemetry",
+        "telemetry.sdk.version": "1.30.0",
+        "service.version": "1.0.0",
+        "process.pid": 20288,
+        "process.executable.name": "node",
+        "process.executable.path": "/usr/local/bin/node",
+        "process.command_args": [
+          "/usr/local/bin/node",
+          "/Users/sri/trace_generator/app/traceExporter.js"
+        ],
+        "process.runtime.version": "20.11.1",
+        "process.runtime.name": "nodejs",
+        "process.runtime.description": "Node.js",
+        "process.command": "/Users/sri/trace_generator/app/traceExporter.js",
+        "process.owner": "sri",
+        "host.name": "Sri-MacBook.local",
+        "host.arch": "arm64",
+        "host.id": "A62B053A-8D3A-57DE-A155-F4B3273F96D7"
+      }
+    },
+    "instrumentationScope": {
+      "name": "mock-tracer",
+      "version": "undefined",
+      "schemaUrl": "undefined"
+    },
+    "traceId": "b85be1ec81338f069c26974ac03dc3ba",
+    "parentid": "85e3ee2dd28bcfdf",
+    "traceState": "undefined",
+    "name": "level-3-span-2",
+    "id": "cf7818e2195e8799",
+    "kind": 0,
+    "timestamp": 1736397353810000,
+    "duration": 724343.709,
+    "attributes": {},
+    "status": {
+      "code": 0
+    },
+    "events": [],
+    "links": []
+  },
+  {
+    "resource": {
+      "attributes": {
+        "service.name": "mock-otel-app",
+        "telemetry.sdk.language": "nodejs",
+        "telemetry.sdk.name": "opentelemetry",
+        "telemetry.sdk.version": "1.30.0",
+        "service.version": "1.0.0",
+        "process.pid": 20288,
+        "process.executable.name": "node",
+        "process.executable.path": "/usr/local/bin/node",
+        "process.command_args": [
+          "/usr/local/bin/node",
+          "/Users/sri/trace_generator/app/traceExporter.js"
+        ],
+        "process.runtime.version": "20.11.1",
+        "process.runtime.name": "nodejs",
+        "process.runtime.description": "Node.js",
+        "process.command": "/Users/sri/trace_generator/app/traceExporter.js",
+        "process.owner": "sri",
+        "host.name": "Sri-MacBook.local",
+        "host.arch": "arm64",
+        "host.id": "A62B053A-8D3A-57DE-A155-F4B3273F96D7"
+      }
+    },
+    "instrumentationScope": {
+      "name": "mock-tracer",
+      "version": "undefined",
+      "schemaUrl": "undefined"
+    },
+    "traceId": "b85be1ec81338f069c26974ac03dc3ba",
+    "parentid": "cf7818e2195e8799",
+    "traceState": "undefined",
+    "name": "level-4-span-1",
+    "id": "679ae1ae30652221",
+    "kind": 0,
+    "timestamp": 1736397354534000,
+    "duration": 35576.708,
+    "attributes": {},
+    "status": {
+      "code": 0
+    },
+    "events": [],
+    "links": []
+  },
+  {
+    "resource": {
+      "attributes": {
+        "service.name": "mock-otel-app",
+        "telemetry.sdk.language": "nodejs",
+        "telemetry.sdk.name": "opentelemetry",
+        "telemetry.sdk.version": "1.30.0",
+        "service.version": "1.0.0",
+        "process.pid": 20288,
+        "process.executable.name": "node",
+        "process.executable.path": "/usr/local/bin/node",
+        "process.command_args": [
+          "/usr/local/bin/node",
+          "/Users/sri/trace_generator/app/traceExporter.js"
+        ],
+        "process.runtime.version": "20.11.1",
+        "process.runtime.name": "nodejs",
+        "process.runtime.description": "Node.js",
+        "process.command": "/Users/sri/trace_generator/app/traceExporter.js",
+        "process.owner": "sri",
+        "host.name": "Sri-MacBook.local",
+        "host.arch": "arm64",
+        "host.id": "A62B053A-8D3A-57DE-A155-F4B3273F96D7"
+      }
+    },
+    "instrumentationScope": {
+      "name": "mock-tracer",
+      "version": "undefined",
+      "schemaUrl": "undefined"
+    },
+    "traceId": "b85be1ec81338f069c26974ac03dc3ba",
+    "parentid": "4c72f28ca4a55fb7",
+    "traceState": "undefined",
+    "name": "level-4-span-3",
+    "id": "4c491a2e1e986157",
+    "kind": 0,
+    "timestamp": 1736397353915000,
+    "duration": 662465.042,
+    "attributes": {},
+    "status": {
+      "code": 0
+    },
+    "events": [],
+    "links": []
+  },
+  {
+    "resource": {
+      "attributes": {
+        "service.name": "mock-otel-app",
+        "telemetry.sdk.language": "nodejs",
+        "telemetry.sdk.name": "opentelemetry",
+        "telemetry.sdk.version": "1.30.0",
+        "service.version": "1.0.0",
+        "process.pid": 20288,
+        "process.executable.name": "node",
+        "process.executable.path": "/usr/local/bin/node",
+        "process.command_args": [
+          "/usr/local/bin/node",
+          "/Users/sri/trace_generator/app/traceExporter.js"
+        ],
+        "process.runtime.version": "20.11.1",
+        "process.runtime.name": "nodejs",
+        "process.runtime.description": "Node.js",
+        "process.command": "/Users/sri/trace_generator/app/traceExporter.js",
+        "process.owner": "sri",
+        "host.name": "Sri-MacBook.local",
+        "host.arch": "arm64",
+        "host.id": "A62B053A-8D3A-57DE-A155-F4B3273F96D7"
+      }
+    },
+    "instrumentationScope": {
+      "name": "mock-tracer",
+      "version": "undefined",
+      "schemaUrl": "undefined"
+    },
+    "traceId": "b85be1ec81338f069c26974ac03dc3ba",
+    "parentid": "14e39769c5970cd0",
+    "traceState": "undefined",
+    "name": "level-4-span-2",
+    "id": "4916ef8ce6a0bef6",
+    "kind": 0,
+    "timestamp": 1736397353853000,
+    "duration": 724705.083,
+    "attributes": {},
+    "status": {
+      "code": 0
+    },
+    "events": [],
+    "links": []
+  },
+  {
+    "resource": {
+      "attributes": {
+        "service.name": "mock-otel-app",
+        "telemetry.sdk.language": "nodejs",
+        "telemetry.sdk.name": "opentelemetry",
+        "telemetry.sdk.version": "1.30.0",
+        "service.version": "1.0.0",
+        "process.pid": 20288,
+        "process.executable.name": "node",
+        "process.executable.path": "/usr/local/bin/node",
+        "process.command_args": [
+          "/usr/local/bin/node",
+          "/Users/sri/trace_generator/app/traceExporter.js"
+        ],
+        "process.runtime.version": "20.11.1",
+        "process.runtime.name": "nodejs",
+        "process.runtime.description": "Node.js",
+        "process.command": "/Users/sri/trace_generator/app/traceExporter.js",
+        "process.owner": "sri",
+        "host.name": "Sri-MacBook.local",
+        "host.arch": "arm64",
+        "host.id": "A62B053A-8D3A-57DE-A155-F4B3273F96D7"
+      }
+    },
+    "instrumentationScope": {
+      "name": "mock-tracer",
+      "version": "undefined",
+      "schemaUrl": "undefined"
+    },
+    "traceId": "b85be1ec81338f069c26974ac03dc3ba",
+    "parentid": "8b36900f93b41dba",
+    "traceState": "undefined",
+    "name": "level-3-span-1",
+    "id": "d7f8a99ab9fe98ea",
+    "kind": 0,
+    "timestamp": 1736397353803000,
+    "duration": 827897.459,
+    "attributes": {},
+    "status": {
+      "code": 0
+    },
+    "events": [],
+    "links": []
+  },
+  {
+    "resource": {
+      "attributes": {
+        "service.name": "mock-otel-app",
+        "telemetry.sdk.language": "nodejs",
+        "telemetry.sdk.name": "opentelemetry",
+        "telemetry.sdk.version": "1.30.0",
+        "service.version": "1.0.0",
+        "process.pid": 20288,
+        "process.executable.name": "node",
+        "process.executable.path": "/usr/local/bin/node",
+        "process.command_args": [
+          "/usr/local/bin/node",
+          "/Users/sri/trace_generator/app/traceExporter.js"
+        ],
+        "process.runtime.version": "20.11.1",
+        "process.runtime.name": "nodejs",
+        "process.runtime.description": "Node.js",
+        "process.command": "/Users/sri/trace_generator/app/traceExporter.js",
+        "process.owner": "sri",
+        "host.name": "Sri-MacBook.local",
+        "host.arch": "arm64",
+        "host.id": "A62B053A-8D3A-57DE-A155-F4B3273F96D7"
+      }
+    },
+    "instrumentationScope": {
+      "name": "mock-tracer",
+      "version": "undefined",
+      "schemaUrl": "undefined"
+    },
+    "traceId": "b85be1ec81338f069c26974ac03dc3ba",
+    "parentid": "2b758c82468c2d7c",
+    "traceState": "undefined",
+    "name": "level-4-span-2",
+    "id": "33b48b12d37a272e",
+    "kind": 0,
+    "timestamp": 1736397354009000,
+    "duration": 630581.541,
+    "attributes": {},
+    "status": {
+      "code": 0
+    },
+    "events": [],
+    "links": []
+  },
+  {
+    "resource": {
+      "attributes": {
+        "service.name": "mock-otel-app",
+        "telemetry.sdk.language": "nodejs",
+        "telemetry.sdk.name": "opentelemetry",
+        "telemetry.sdk.version": "1.30.0",
+        "service.version": "1.0.0",
+        "process.pid": 20288,
+        "process.executable.name": "node",
+        "process.executable.path": "/usr/local/bin/node",
+        "process.command_args": [
+          "/usr/local/bin/node",
+          "/Users/sri/trace_generator/app/traceExporter.js"
+        ],
+        "process.runtime.version": "20.11.1",
+        "process.runtime.name": "nodejs",
+        "process.runtime.description": "Node.js",
+        "process.command": "/Users/sri/trace_generator/app/traceExporter.js",
+        "process.owner": "sri",
+        "host.name": "Sri-MacBook.local",
+        "host.arch": "arm64",
+        "host.id": "A62B053A-8D3A-57DE-A155-F4B3273F96D7"
+      }
+    },
+    "instrumentationScope": {
+      "name": "mock-tracer",
+      "version": "undefined",
+      "schemaUrl": "undefined"
+    },
+    "traceId": "b85be1ec81338f069c26974ac03dc3ba",
+    "parentid": "f3a1710dc1f2f54b",
+    "traceState": "undefined",
+    "name": "level-4-span-3",
+    "id": "5ed80396f7eb67a8",
+    "kind": 0,
+    "timestamp": 1736397354378000,
+    "duration": 279392.958,
+    "attributes": {},
+    "status": {
+      "code": 0
+    },
+    "events": [],
+    "links": []
+  },
+  {
+    "resource": {
+      "attributes": {
+        "service.name": "mock-otel-app",
+        "telemetry.sdk.language": "nodejs",
+        "telemetry.sdk.name": "opentelemetry",
+        "telemetry.sdk.version": "1.30.0",
+        "service.version": "1.0.0",
+        "process.pid": 20288,
+        "process.executable.name": "node",
+        "process.executable.path": "/usr/local/bin/node",
+        "process.command_args": [
+          "/usr/local/bin/node",
+          "/Users/sri/trace_generator/app/traceExporter.js"
+        ],
+        "process.runtime.version": "20.11.1",
+        "process.runtime.name": "nodejs",
+        "process.runtime.description": "Node.js",
+        "process.command": "/Users/sri/trace_generator/app/traceExporter.js",
+        "process.owner": "sri",
+        "host.name": "Sri-MacBook.local",
+        "host.arch": "arm64",
+        "host.id": "A62B053A-8D3A-57DE-A155-F4B3273F96D7"
+      }
+    },
+    "instrumentationScope": {
+      "name": "mock-tracer",
+      "version": "undefined",
+      "schemaUrl": "undefined"
+    },
+    "traceId": "b85be1ec81338f069c26974ac03dc3ba",
+    "parentid": "14e39769c5970cd0",
+    "traceState": "undefined",
+    "name": "level-4-span-1",
+    "id": "401c1cac5bc0eaca",
+    "kind": 0,
+    "timestamp": 1736397353853000,
+    "duration": 830505.292,
+    "attributes": {},
+    "status": {
+      "code": 0
+    },
+    "events": [],
+    "links": []
+  },
+  {
+    "resource": {
+      "attributes": {
+        "service.name": "mock-otel-app",
+        "telemetry.sdk.language": "nodejs",
+        "telemetry.sdk.name": "opentelemetry",
+        "telemetry.sdk.version": "1.30.0",
+        "service.version": "1.0.0",
+        "process.pid": 20288,
+        "process.executable.name": "node",
+        "process.executable.path": "/usr/local/bin/node",
+        "process.command_args": [
+          "/usr/local/bin/node",
+          "/Users/sri/trace_generator/app/traceExporter.js"
+        ],
+        "process.runtime.version": "20.11.1",
+        "process.runtime.name": "nodejs",
+        "process.runtime.description": "Node.js",
+        "process.command": "/Users/sri/trace_generator/app/traceExporter.js",
+        "process.owner": "sri",
+        "host.name": "Sri-MacBook.local",
+        "host.arch": "arm64",
+        "host.id": "A62B053A-8D3A-57DE-A155-F4B3273F96D7"
+      }
+    },
+    "instrumentationScope": {
+      "name": "mock-tracer",
+      "version": "undefined",
+      "schemaUrl": "undefined"
+    },
+    "traceId": "b85be1ec81338f069c26974ac03dc3ba",
+    "parentid": "0122a8e639384a19",
+    "traceState": "undefined",
+    "name": "level-4-span-1",
+    "id": "868761cb9e7fef3a",
+    "kind": 0,
+    "timestamp": 1736397354005000,
+    "duration": 690397.75,
+    "attributes": {},
+    "status": {
+      "code": 0
+    },
+    "events": [],
+    "links": []
+  },
+  {
+    "resource": {
+      "attributes": {
+        "service.name": "mock-otel-app",
+        "telemetry.sdk.language": "nodejs",
+        "telemetry.sdk.name": "opentelemetry",
+        "telemetry.sdk.version": "1.30.0",
+        "service.version": "1.0.0",
+        "process.pid": 20288,
+        "process.executable.name": "node",
+        "process.executable.path": "/usr/local/bin/node",
+        "process.command_args": [
+          "/usr/local/bin/node",
+          "/Users/sri/trace_generator/app/traceExporter.js"
+        ],
+        "process.runtime.version": "20.11.1",
+        "process.runtime.name": "nodejs",
+        "process.runtime.description": "Node.js",
+        "process.command": "/Users/sri/trace_generator/app/traceExporter.js",
+        "process.owner": "sri",
+        "host.name": "Sri-MacBook.local",
+        "host.arch": "arm64",
+        "host.id": "A62B053A-8D3A-57DE-A155-F4B3273F96D7"
+      }
+    },
+    "instrumentationScope": {
+      "name": "mock-tracer",
+      "version": "undefined",
+      "schemaUrl": "undefined"
+    },
+    "traceId": "b85be1ec81338f069c26974ac03dc3ba",
+    "parentid": "cf7818e2195e8799",
+    "traceState": "undefined",
+    "name": "level-4-span-3",
+    "id": "30cb3dd007bf0ac3",
+    "kind": 0,
+    "timestamp": 1736397354534000,
+    "duration": 167239.209,
+    "attributes": {},
+    "status": {
+      "code": 0
+    },
+    "events": [],
+    "links": []
+  },
+  {
+    "resource": {
+      "attributes": {
+        "service.name": "mock-otel-app",
+        "telemetry.sdk.language": "nodejs",
+        "telemetry.sdk.name": "opentelemetry",
+        "telemetry.sdk.version": "1.30.0",
+        "service.version": "1.0.0",
+        "process.pid": 20288,
+        "process.executable.name": "node",
+        "process.executable.path": "/usr/local/bin/node",
+        "process.command_args": [
+          "/usr/local/bin/node",
+          "/Users/sri/trace_generator/app/traceExporter.js"
+        ],
+        "process.runtime.version": "20.11.1",
+        "process.runtime.name": "nodejs",
+        "process.runtime.description": "Node.js",
+        "process.command": "/Users/sri/trace_generator/app/traceExporter.js",
+        "process.owner": "sri",
+        "host.name": "Sri-MacBook.local",
+        "host.arch": "arm64",
+        "host.id": "A62B053A-8D3A-57DE-A155-F4B3273F96D7"
+      }
+    },
+    "instrumentationScope": {
+      "name": "mock-tracer",
+      "version": "undefined",
+      "schemaUrl": "undefined"
+    },
+    "traceId": "b85be1ec81338f069c26974ac03dc3ba",
+    "parentid": "d7f8a99ab9fe98ea",
+    "traceState": "undefined",
+    "name": "level-4-span-2",
+    "id": "1a1879aa9f8f76fa",
+    "kind": 0,
+    "timestamp": 1736397354631000,
+    "duration": 83845.084,
+    "attributes": {},
+    "status": {
+      "code": 0
+    },
+    "events": [],
+    "links": []
+  },
+  {
+    "resource": {
+      "attributes": {
+        "service.name": "mock-otel-app",
+        "telemetry.sdk.language": "nodejs",
+        "telemetry.sdk.name": "opentelemetry",
+        "telemetry.sdk.version": "1.30.0",
+        "service.version": "1.0.0",
+        "process.pid": 20288,
+        "process.executable.name": "node",
+        "process.executable.path": "/usr/local/bin/node",
+        "process.command_args": [
+          "/usr/local/bin/node",
+          "/Users/sri/trace_generator/app/traceExporter.js"
+        ],
+        "process.runtime.version": "20.11.1",
+        "process.runtime.name": "nodejs",
+        "process.runtime.description": "Node.js",
+        "process.command": "/Users/sri/trace_generator/app/traceExporter.js",
+        "process.owner": "sri",
+        "host.name": "Sri-MacBook.local",
+        "host.arch": "arm64",
+        "host.id": "A62B053A-8D3A-57DE-A155-F4B3273F96D7"
+      }
+    },
+    "instrumentationScope": {
+      "name": "mock-tracer",
+      "version": "undefined",
+      "schemaUrl": "undefined"
+    },
+    "traceId": "b85be1ec81338f069c26974ac03dc3ba",
+    "parentid": "62446ff617e410e1",
+    "traceState": "undefined",
+    "name": "level-4-span-1",
+    "id": "0ae6d182dafe1443",
+    "kind": 0,
+    "timestamp": 1736397354248000,
+    "duration": 556217.083,
+    "attributes": {},
+    "status": {
+      "code": 0
+    },
+    "events": [],
+    "links": []
+  },
+  {
+    "resource": {
+      "attributes": {
+        "service.name": "mock-otel-app",
+        "telemetry.sdk.language": "nodejs",
+        "telemetry.sdk.name": "opentelemetry",
+        "telemetry.sdk.version": "1.30.0",
+        "service.version": "1.0.0",
+        "process.pid": 20288,
+        "process.executable.name": "node",
+        "process.executable.path": "/usr/local/bin/node",
+        "process.command_args": [
+          "/usr/local/bin/node",
+          "/Users/sri/trace_generator/app/traceExporter.js"
+        ],
+        "process.runtime.version": "20.11.1",
+        "process.runtime.name": "nodejs",
+        "process.runtime.description": "Node.js",
+        "process.command": "/Users/sri/trace_generator/app/traceExporter.js",
+        "process.owner": "sri",
+        "host.name": "Sri-MacBook.local",
+        "host.arch": "arm64",
+        "host.id": "A62B053A-8D3A-57DE-A155-F4B3273F96D7"
+      }
+    },
+    "instrumentationScope": {
+      "name": "mock-tracer",
+      "version": "undefined",
+      "schemaUrl": "undefined"
+    },
+    "traceId": "b85be1ec81338f069c26974ac03dc3ba",
+    "parentid": "2509c6b7491aa780",
+    "traceState": "undefined",
+    "name": "level-3-span-3",
+    "id": "a105413243236d0f",
+    "kind": 0,
+    "timestamp": 1736397353909000,
+    "duration": 951747.708,
+    "attributes": {},
+    "status": {
+      "code": 0
+    },
+    "events": [],
+    "links": []
+  },
+  {
+    "resource": {
+      "attributes": {
+        "service.name": "mock-otel-app",
+        "telemetry.sdk.language": "nodejs",
+        "telemetry.sdk.name": "opentelemetry",
+        "telemetry.sdk.version": "1.30.0",
+        "service.version": "1.0.0",
+        "process.pid": 20288,
+        "process.executable.name": "node",
+        "process.executable.path": "/usr/local/bin/node",
+        "process.command_args": [
+          "/usr/local/bin/node",
+          "/Users/sri/trace_generator/app/traceExporter.js"
+        ],
+        "process.runtime.version": "20.11.1",
+        "process.runtime.name": "nodejs",
+        "process.runtime.description": "Node.js",
+        "process.command": "/Users/sri/trace_generator/app/traceExporter.js",
+        "process.owner": "sri",
+        "host.name": "Sri-MacBook.local",
+        "host.arch": "arm64",
+        "host.id": "A62B053A-8D3A-57DE-A155-F4B3273F96D7"
+      }
+    },
+    "instrumentationScope": {
+      "name": "mock-tracer",
+      "version": "undefined",
+      "schemaUrl": "undefined"
+    },
+    "traceId": "b85be1ec81338f069c26974ac03dc3ba",
+    "parentid": "d7f8a99ab9fe98ea",
+    "traceState": "undefined",
+    "name": "level-4-span-3",
+    "id": "dd5b06afdd06922a",
+    "kind": 0,
+    "timestamp": 1736397354631000,
+    "duration": 234501.042,
+    "attributes": {},
+    "status": {
+      "code": 0
+    },
+    "events": [],
+    "links": []
+  },
+  {
+    "resource": {
+      "attributes": {
+        "service.name": "mock-otel-app",
+        "telemetry.sdk.language": "nodejs",
+        "telemetry.sdk.name": "opentelemetry",
+        "telemetry.sdk.version": "1.30.0",
+        "service.version": "1.0.0",
+        "process.pid": 20288,
+        "process.executable.name": "node",
+        "process.executable.path": "/usr/local/bin/node",
+        "process.command_args": [
+          "/usr/local/bin/node",
+          "/Users/sri/trace_generator/app/traceExporter.js"
+        ],
+        "process.runtime.version": "20.11.1",
+        "process.runtime.name": "nodejs",
+        "process.runtime.description": "Node.js",
+        "process.command": "/Users/sri/trace_generator/app/traceExporter.js",
+        "process.owner": "sri",
+        "host.name": "Sri-MacBook.local",
+        "host.arch": "arm64",
+        "host.id": "A62B053A-8D3A-57DE-A155-F4B3273F96D7"
+      }
+    },
+    "instrumentationScope": {
+      "name": "mock-tracer",
+      "version": "undefined",
+      "schemaUrl": "undefined"
+    },
+    "traceId": "b85be1ec81338f069c26974ac03dc3ba",
+    "parentid": "f3a1710dc1f2f54b",
+    "traceState": "undefined",
+    "name": "level-4-span-2",
+    "id": "f833089fe8fca392",
+    "kind": 0,
+    "timestamp": 1736397354378000,
+    "duration": 490676.834,
+    "attributes": {},
+    "status": {
+      "code": 0
+    },
+    "events": [],
+    "links": []
+  },
+  {
+    "resource": {
+      "attributes": {
+        "service.name": "mock-otel-app",
+        "telemetry.sdk.language": "nodejs",
+        "telemetry.sdk.name": "opentelemetry",
+        "telemetry.sdk.version": "1.30.0",
+        "service.version": "1.0.0",
+        "process.pid": 20288,
+        "process.executable.name": "node",
+        "process.executable.path": "/usr/local/bin/node",
+        "process.command_args": [
+          "/usr/local/bin/node",
+          "/Users/sri/trace_generator/app/traceExporter.js"
+        ],
+        "process.runtime.version": "20.11.1",
+        "process.runtime.name": "nodejs",
+        "process.runtime.description": "Node.js",
+        "process.command": "/Users/sri/trace_generator/app/traceExporter.js",
+        "process.owner": "sri",
+        "host.name": "Sri-MacBook.local",
+        "host.arch": "arm64",
+        "host.id": "A62B053A-8D3A-57DE-A155-F4B3273F96D7"
+      }
+    },
+    "instrumentationScope": {
+      "name": "mock-tracer",
+      "version": "undefined",
+      "schemaUrl": "undefined"
+    },
+    "traceId": "b85be1ec81338f069c26974ac03dc3ba",
+    "parentid": "cf7818e2195e8799",
+    "traceState": "undefined",
+    "name": "level-4-span-2",
+    "id": "aded89298e2d9855",
+    "kind": 0,
+    "timestamp": 1736397354534000,
+    "duration": 337939.167,
+    "attributes": {},
+    "status": {
+      "code": 0
+    },
+    "events": [],
+    "links": []
+  },
+  {
+    "resource": {
+      "attributes": {
+        "service.name": "mock-otel-app",
+        "telemetry.sdk.language": "nodejs",
+        "telemetry.sdk.name": "opentelemetry",
+        "telemetry.sdk.version": "1.30.0",
+        "service.version": "1.0.0",
+        "process.pid": 20288,
+        "process.executable.name": "node",
+        "process.executable.path": "/usr/local/bin/node",
+        "process.command_args": [
+          "/usr/local/bin/node",
+          "/Users/sri/trace_generator/app/traceExporter.js"
+        ],
+        "process.runtime.version": "20.11.1",
+        "process.runtime.name": "nodejs",
+        "process.runtime.description": "Node.js",
+        "process.command": "/Users/sri/trace_generator/app/traceExporter.js",
+        "process.owner": "sri",
+        "host.name": "Sri-MacBook.local",
+        "host.arch": "arm64",
+        "host.id": "A62B053A-8D3A-57DE-A155-F4B3273F96D7"
+      }
+    },
+    "instrumentationScope": {
+      "name": "mock-tracer",
+      "version": "undefined",
+      "schemaUrl": "undefined"
+    },
+    "traceId": "b85be1ec81338f069c26974ac03dc3ba",
+    "parentid": "4c72f28ca4a55fb7",
+    "traceState": "undefined",
+    "name": "level-4-span-2",
+    "id": "d3a73ec0a24b0c1a",
+    "kind": 0,
+    "timestamp": 1736397353915000,
+    "duration": 973120.208,
+    "attributes": {},
+    "status": {
+      "code": 0
+    },
+    "events": [],
+    "links": []
+  },
+  {
+    "resource": {
+      "attributes": {
+        "service.name": "mock-otel-app",
+        "telemetry.sdk.language": "nodejs",
+        "telemetry.sdk.name": "opentelemetry",
+        "telemetry.sdk.version": "1.30.0",
+        "service.version": "1.0.0",
+        "process.pid": 20288,
+        "process.executable.name": "node",
+        "process.executable.path": "/usr/local/bin/node",
+        "process.command_args": [
+          "/usr/local/bin/node",
+          "/Users/sri/trace_generator/app/traceExporter.js"
+        ],
+        "process.runtime.version": "20.11.1",
+        "process.runtime.name": "nodejs",
+        "process.runtime.description": "Node.js",
+        "process.command": "/Users/sri/trace_generator/app/traceExporter.js",
+        "process.owner": "sri",
+        "host.name": "Sri-MacBook.local",
+        "host.arch": "arm64",
+        "host.id": "A62B053A-8D3A-57DE-A155-F4B3273F96D7"
+      }
+    },
+    "instrumentationScope": {
+      "name": "mock-tracer",
+      "version": "undefined",
+      "schemaUrl": "undefined"
+    },
+    "traceId": "b85be1ec81338f069c26974ac03dc3ba",
+    "parentid": "1199d3505dd95c68",
+    "traceState": "undefined",
+    "name": "level-4-span-2",
+    "id": "87ecf82e0f95eb3c",
+    "kind": 0,
+    "timestamp": 1736397354308000,
+    "duration": 599788.333,
+    "attributes": {},
+    "status": {
+      "code": 0
+    },
+    "events": [],
+    "links": []
+  },
+  {
+    "resource": {
+      "attributes": {
+        "service.name": "mock-otel-app",
+        "telemetry.sdk.language": "nodejs",
+        "telemetry.sdk.name": "opentelemetry",
+        "telemetry.sdk.version": "1.30.0",
+        "service.version": "1.0.0",
+        "process.pid": 20288,
+        "process.executable.name": "node",
+        "process.executable.path": "/usr/local/bin/node",
+        "process.command_args": [
+          "/usr/local/bin/node",
+          "/Users/sri/trace_generator/app/traceExporter.js"
+        ],
+        "process.runtime.version": "20.11.1",
+        "process.runtime.name": "nodejs",
+        "process.runtime.description": "Node.js",
+        "process.command": "/Users/sri/trace_generator/app/traceExporter.js",
+        "process.owner": "sri",
+        "host.name": "Sri-MacBook.local",
+        "host.arch": "arm64",
+        "host.id": "A62B053A-8D3A-57DE-A155-F4B3273F96D7"
+      }
+    },
+    "instrumentationScope": {
+      "name": "mock-tracer",
+      "version": "undefined",
+      "schemaUrl": "undefined"
+    },
+    "traceId": "b85be1ec81338f069c26974ac03dc3ba",
+    "parentid": "0e0bbb431f85fc3f",
+    "traceState": "undefined",
+    "name": "level-4-span-2",
+    "id": "8f6a8773f5b9b503",
+    "kind": 0,
+    "timestamp": 1736397354189000,
+    "duration": 786276.25,
+    "attributes": {},
+    "status": {
+      "code": 0
+    },
+    "events": [],
+    "links": []
+  },
+  {
+    "resource": {
+      "attributes": {
+        "service.name": "mock-otel-app",
+        "telemetry.sdk.language": "nodejs",
+        "telemetry.sdk.name": "opentelemetry",
+        "telemetry.sdk.version": "1.30.0",
+        "service.version": "1.0.0",
+        "process.pid": 20288,
+        "process.executable.name": "node",
+        "process.executable.path": "/usr/local/bin/node",
+        "process.command_args": [
+          "/usr/local/bin/node",
+          "/Users/sri/trace_generator/app/traceExporter.js"
+        ],
+        "process.runtime.version": "20.11.1",
+        "process.runtime.name": "nodejs",
+        "process.runtime.description": "Node.js",
+        "process.command": "/Users/sri/trace_generator/app/traceExporter.js",
+        "process.owner": "sri",
+        "host.name": "Sri-MacBook.local",
+        "host.arch": "arm64",
+        "host.id": "A62B053A-8D3A-57DE-A155-F4B3273F96D7"
+      }
+    },
+    "instrumentationScope": {
+      "name": "mock-tracer",
+      "version": "undefined",
+      "schemaUrl": "undefined"
+    },
+    "traceId": "b85be1ec81338f069c26974ac03dc3ba",
+    "parentid": "62446ff617e410e1",
+    "traceState": "undefined",
+    "name": "level-4-span-2",
+    "id": "8626dfa4f5de77fa",
+    "kind": 0,
+    "timestamp": 1736397354248000,
+    "duration": 779472.333,
+    "attributes": {},
+    "status": {
+      "code": 0
+    },
+    "events": [],
+    "links": []
+  },
+  {
+    "resource": {
+      "attributes": {
+        "service.name": "mock-otel-app",
+        "telemetry.sdk.language": "nodejs",
+        "telemetry.sdk.name": "opentelemetry",
+        "telemetry.sdk.version": "1.30.0",
+        "service.version": "1.0.0",
+        "process.pid": 20288,
+        "process.executable.name": "node",
+        "process.executable.path": "/usr/local/bin/node",
+        "process.command_args": [
+          "/usr/local/bin/node",
+          "/Users/sri/trace_generator/app/traceExporter.js"
+        ],
+        "process.runtime.version": "20.11.1",
+        "process.runtime.name": "nodejs",
+        "process.runtime.description": "Node.js",
+        "process.command": "/Users/sri/trace_generator/app/traceExporter.js",
+        "process.owner": "sri",
+        "host.name": "Sri-MacBook.local",
+        "host.arch": "arm64",
+        "host.id": "A62B053A-8D3A-57DE-A155-F4B3273F96D7"
+      }
+    },
+    "instrumentationScope": {
+      "name": "mock-tracer",
+      "version": "undefined",
+      "schemaUrl": "undefined"
+    },
+    "traceId": "b85be1ec81338f069c26974ac03dc3ba",
+    "parentid": "a105413243236d0f",
+    "traceState": "undefined",
+    "name": "level-4-span-1",
+    "id": "88febcdcacd2dc3f",
+    "kind": 0,
+    "timestamp": 1736397354861000,
+    "duration": 245039.791,
+    "attributes": {},
+    "status": {
+      "code": 0
+    },
+    "events": [],
+    "links": []
+  },
+  {
+    "resource": {
+      "attributes": {
+        "service.name": "mock-otel-app",
+        "telemetry.sdk.language": "nodejs",
+        "telemetry.sdk.name": "opentelemetry",
+        "telemetry.sdk.version": "1.30.0",
+        "service.version": "1.0.0",
+        "process.pid": 20288,
+        "process.executable.name": "node",
+        "process.executable.path": "/usr/local/bin/node",
+        "process.command_args": [
+          "/usr/local/bin/node",
+          "/Users/sri/trace_generator/app/traceExporter.js"
+        ],
+        "process.runtime.version": "20.11.1",
+        "process.runtime.name": "nodejs",
+        "process.runtime.description": "Node.js",
+        "process.command": "/Users/sri/trace_generator/app/traceExporter.js",
+        "process.owner": "sri",
+        "host.name": "Sri-MacBook.local",
+        "host.arch": "arm64",
+        "host.id": "A62B053A-8D3A-57DE-A155-F4B3273F96D7"
+      }
+    },
+    "instrumentationScope": {
+      "name": "mock-tracer",
+      "version": "undefined",
+      "schemaUrl": "undefined"
+    },
+    "traceId": "b85be1ec81338f069c26974ac03dc3ba",
+    "parentid": "0e0bbb431f85fc3f",
+    "traceState": "undefined",
+    "name": "level-4-span-3",
+    "id": "719f589a3a593d05",
+    "kind": 0,
+    "timestamp": 1736397354189000,
+    "duration": 944379.292,
+    "attributes": {},
+    "status": {
+      "code": 0
+    },
+    "events": [],
+    "links": []
+  },
+  {
+    "resource": {
+      "attributes": {
+        "service.name": "mock-otel-app",
+        "telemetry.sdk.language": "nodejs",
+        "telemetry.sdk.name": "opentelemetry",
+        "telemetry.sdk.version": "1.30.0",
+        "service.version": "1.0.0",
+        "process.pid": 20288,
+        "process.executable.name": "node",
+        "process.executable.path": "/usr/local/bin/node",
+        "process.command_args": [
+          "/usr/local/bin/node",
+          "/Users/sri/trace_generator/app/traceExporter.js"
+        ],
+        "process.runtime.version": "20.11.1",
+        "process.runtime.name": "nodejs",
+        "process.runtime.description": "Node.js",
+        "process.command": "/Users/sri/trace_generator/app/traceExporter.js",
+        "process.owner": "sri",
+        "host.name": "Sri-MacBook.local",
+        "host.arch": "arm64",
+        "host.id": "A62B053A-8D3A-57DE-A155-F4B3273F96D7"
+      }
+    },
+    "instrumentationScope": {
+      "name": "mock-tracer",
+      "version": "undefined",
+      "schemaUrl": "undefined"
+    },
+    "traceId": "b85be1ec81338f069c26974ac03dc3ba",
+    "parentid": "0e0bbb431f85fc3f",
+    "traceState": "undefined",
+    "name": "level-4-span-1",
+    "id": "1c8abb8dcda561ae",
+    "kind": 0,
+    "timestamp": 1736397354189000,
+    "duration": 982155.333,
+    "attributes": {},
+    "status": {
+      "code": 0
+    },
+    "events": [],
+    "links": []
+  },
+  {
+    "resource": {
+      "attributes": {
+        "service.name": "mock-otel-app",
+        "telemetry.sdk.language": "nodejs",
+        "telemetry.sdk.name": "opentelemetry",
+        "telemetry.sdk.version": "1.30.0",
+        "service.version": "1.0.0",
+        "process.pid": 20288,
+        "process.executable.name": "node",
+        "process.executable.path": "/usr/local/bin/node",
+        "process.command_args": [
+          "/usr/local/bin/node",
+          "/Users/sri/trace_generator/app/traceExporter.js"
+        ],
+        "process.runtime.version": "20.11.1",
+        "process.runtime.name": "nodejs",
+        "process.runtime.description": "Node.js",
+        "process.command": "/Users/sri/trace_generator/app/traceExporter.js",
+        "process.owner": "sri",
+        "host.name": "Sri-MacBook.local",
+        "host.arch": "arm64",
+        "host.id": "A62B053A-8D3A-57DE-A155-F4B3273F96D7"
+      }
+    },
+    "instrumentationScope": {
+      "name": "mock-tracer",
+      "version": "undefined",
+      "schemaUrl": "undefined"
+    },
+    "traceId": "b85be1ec81338f069c26974ac03dc3ba",
+    "parentid": "f3a1710dc1f2f54b",
+    "traceState": "undefined",
+    "name": "level-4-span-1",
+    "id": "d166ee4d6e4cd57f",
+    "kind": 0,
+    "timestamp": 1736397354377000,
+    "duration": 850374.917,
+    "attributes": {},
+    "status": {
+      "code": 0
+    },
+    "events": [],
+    "links": []
+  },
+  {
+    "resource": {
+      "attributes": {
+        "service.name": "mock-otel-app",
+        "telemetry.sdk.language": "nodejs",
+        "telemetry.sdk.name": "opentelemetry",
+        "telemetry.sdk.version": "1.30.0",
+        "service.version": "1.0.0",
+        "process.pid": 20288,
+        "process.executable.name": "node",
+        "process.executable.path": "/usr/local/bin/node",
+        "process.command_args": [
+          "/usr/local/bin/node",
+          "/Users/sri/trace_generator/app/traceExporter.js"
+        ],
+        "process.runtime.version": "20.11.1",
+        "process.runtime.name": "nodejs",
+        "process.runtime.description": "Node.js",
+        "process.command": "/Users/sri/trace_generator/app/traceExporter.js",
+        "process.owner": "sri",
+        "host.name": "Sri-MacBook.local",
+        "host.arch": "arm64",
+        "host.id": "A62B053A-8D3A-57DE-A155-F4B3273F96D7"
+      }
+    },
+    "instrumentationScope": {
+      "name": "mock-tracer",
+      "version": "undefined",
+      "schemaUrl": "undefined"
+    },
+    "traceId": "b85be1ec81338f069c26974ac03dc3ba",
+    "parentid": "a105413243236d0f",
+    "traceState": "undefined",
+    "name": "level-4-span-3",
+    "id": "3e2924e008cddb83",
+    "kind": 0,
+    "timestamp": 1736397354861000,
+    "duration": 692277.167,
+    "attributes": {},
+    "status": {
+      "code": 0
+    },
+    "events": [],
+    "links": []
+  },
+  {
+    "resource": {
+      "attributes": {
+        "service.name": "mock-otel-app",
+        "telemetry.sdk.language": "nodejs",
+        "telemetry.sdk.name": "opentelemetry",
+        "telemetry.sdk.version": "1.30.0",
+        "service.version": "1.0.0",
+        "process.pid": 20288,
+        "process.executable.name": "node",
+        "process.executable.path": "/usr/local/bin/node",
+        "process.command_args": [
+          "/usr/local/bin/node",
+          "/Users/sri/trace_generator/app/traceExporter.js"
+        ],
+        "process.runtime.version": "20.11.1",
+        "process.runtime.name": "nodejs",
+        "process.runtime.description": "Node.js",
+        "process.command": "/Users/sri/trace_generator/app/traceExporter.js",
+        "process.owner": "sri",
+        "host.name": "Sri-MacBook.local",
+        "host.arch": "arm64",
+        "host.id": "A62B053A-8D3A-57DE-A155-F4B3273F96D7"
+      }
+    },
+    "instrumentationScope": {
+      "name": "mock-tracer",
+      "version": "undefined",
+      "schemaUrl": "undefined"
+    },
+    "traceId": "b85be1ec81338f069c26974ac03dc3ba",
+    "parentid": "d7f8a99ab9fe98ea",
+    "traceState": "undefined",
+    "name": "level-4-span-1",
+    "id": "b075113a378cab5a",
+    "kind": 0,
+    "timestamp": 1736397354631000,
+    "duration": 971973.125,
+    "attributes": {},
+    "status": {
+      "code": 0
+    },
+    "events": [],
+    "links": []
+  },
+  {
+    "resource": {
+      "attributes": {
+        "service.name": "mock-otel-app",
+        "telemetry.sdk.language": "nodejs",
+        "telemetry.sdk.name": "opentelemetry",
+        "telemetry.sdk.version": "1.30.0",
+        "service.version": "1.0.0",
+        "process.pid": 20288,
+        "process.executable.name": "node",
+        "process.executable.path": "/usr/local/bin/node",
+        "process.command_args": [
+          "/usr/local/bin/node",
+          "/Users/sri/trace_generator/app/traceExporter.js"
+        ],
+        "process.runtime.version": "20.11.1",
+        "process.runtime.name": "nodejs",
+        "process.runtime.description": "Node.js",
+        "process.command": "/Users/sri/trace_generator/app/traceExporter.js",
+        "process.owner": "sri",
+        "host.name": "Sri-MacBook.local",
+        "host.arch": "arm64",
+        "host.id": "A62B053A-8D3A-57DE-A155-F4B3273F96D7"
+      }
+    },
+    "instrumentationScope": {
+      "name": "mock-tracer",
+      "version": "undefined",
+      "schemaUrl": "undefined"
+    },
+    "traceId": "b85be1ec81338f069c26974ac03dc3ba",
+    "parentid": "a105413243236d0f",
+    "traceState": "undefined",
+    "name": "level-4-span-2",
+    "id": "d85bd494b96368bf",
+    "kind": 0,
+    "timestamp": 1736397354861000,
+    "duration": 966388.666,
+    "attributes": {},
+    "status": {
+      "code": 0
+    },
+    "events": [],
+    "links": []
+  },
+  {
+    "resource": {
+      "attributes": {
+        "service.name": "mock-otel-app",
+        "telemetry.sdk.language": "nodejs",
+        "telemetry.sdk.name": "opentelemetry",
+        "telemetry.sdk.version": "1.30.0",
+        "service.version": "1.0.0",
+        "process.pid": 20288,
+        "process.executable.name": "node",
+        "process.executable.path": "/usr/local/bin/node",
+        "process.command_args": [
+          "/usr/local/bin/node",
+          "/Users/sri/trace_generator/app/traceExporter.js"
+        ],
+        "process.runtime.version": "20.11.1",
+        "process.runtime.name": "nodejs",
+        "process.runtime.description": "Node.js",
+        "process.command": "/Users/sri/trace_generator/app/traceExporter.js",
+        "process.owner": "sri",
+        "host.name": "Sri-MacBook.local",
+        "host.arch": "arm64",
+        "host.id": "A62B053A-8D3A-57DE-A155-F4B3273F96D7"
+      }
+    },
+    "instrumentationScope": {
+      "name": "mock-tracer",
+      "version": "undefined",
+      "schemaUrl": "undefined"
+    },
+    "traceId": "b85be1ec81338f069c26974ac03dc3ba",
+    "parentid": "undefined",
+    "traceState": "undefined",
+    "name": "root-span",
+    "id": "f41d227bba40b51c",
+    "kind": 0,
+    "timestamp": 1736397352180000,
+    "duration": 15002564.875,
+    "attributes": {},
+    "status": {
+      "code": 0
+    },
+    "events": [],
+    "links": []
+  }
+]
