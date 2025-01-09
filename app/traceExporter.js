@@ -22,8 +22,7 @@ const sdk = new NodeSDK({
 
 // Start the SDK
 sdk.start();
-
-console.log('OpenTelemetry SDK started');
+// console.log('OpenTelemetry SDK started');
 
 // 5. Generate Mock Traces
 const tracer = trace.getTracer('mock-tracer');
@@ -31,32 +30,33 @@ const tracer = trace.getTracer('mock-tracer');
 // Counter to track active spans
 let activeSpanCount = 0;
 
-function createSpanTree(parentSpan, level, maxLevels, childrenPerSpan) {
+async function createSpanTree(parentSpan, level, maxLevels, childrenPerSpan) {
   if (level > maxLevels) {
     return;
   }
 
   // Use context.with to ensure the child spans inherit the parent span context
-  context.with(trace.setSpan(context.active(), parentSpan), () => {
+  return context.with(trace.setSpan(context.active(), parentSpan), async () => {
+    const promises = [];
     for (let i = 1; i <= childrenPerSpan; i++) {
       activeSpanCount++; // Increment active span count
 
       const childSpan = tracer.startSpan(`level-${level}-span-${i}`);
 
       // Simulate work and recursively create child spans
-      setTimeout(() => {
-        createSpanTree(childSpan, level + 1, maxLevels, childrenPerSpan);
-
-        // End the current span
+      const promise = new Promise(async (resolve) => {
+        await new Promise(r => setTimeout(r, Math.random() * 1000));
+        await createSpanTree(childSpan, level + 1, maxLevels, childrenPerSpan);
         childSpan.end();
         activeSpanCount--; // Decrement active span count
-
-        // Check if all spans are complete
-        if (activeSpanCount === 0) {
-          console.log("All spans completed. Ending root span...");
-          rootSpan.end();
-        }
-      }, Math.random() * 1000);
+        resolve();
+      });
+      promises.push(promise);
+    }
+    await Promise.all(promises);
+    if (level === 1) {
+      // console.log("All spans completed. Ending root span...");
+      rootSpan.end();
     }
   });
 }
